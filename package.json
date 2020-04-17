@@ -14,7 +14,6 @@
   },
   "scripts": {
     "start": "yarn build && gatsby serve",
-    "build": "gatsby build",
-    "test": "echo 'not there yet ...'"
+    "build": "gatsby build"
   }
 }

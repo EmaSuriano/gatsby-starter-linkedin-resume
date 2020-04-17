@@ -11,5 +11,4 @@ Install dependencies by running `yarn --ignore-engines`.
 ## Development
 
 - `start`: serve static locally
-- `test`: check `resume.json` structure and run visual test with [Percy](http://percy.io/Ema-suriano/).
 - `build`: generate public folder to be deployed using [Netlify](http://netflify.com/).
