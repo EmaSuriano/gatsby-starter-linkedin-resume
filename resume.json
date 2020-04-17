@@ -1,0 +1,118 @@
+{
+  "basics": {
+    "name": "Emanuel Suriano",
+    "label": "Software Engineer",
+    "picture": "",
+    "email": "emanuel.suriano@gmail.com",
+    "phone": "",
+    "website": "http://emasuriano.com/",
+    "summary": "I am a motivated, enthusiastic person, and passionate about new technologies. Always building side projects which allow me to always be up to date with the current stack in the field.   I firmly believe in the Open Source philosophy, therefore I am a maintainer of some Open Source project, you can find them inside my GitHub profile. Also, I am keen to contribute to Open Source projects whenever I can because I think is the best to grow as a community.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Berlin",
+      "countryCode": "DEU",
+      "region": ""
+    },
+    "profiles": []
+  },
+  "work": [
+    {
+      "company": "Omio",
+      "position": "Senior Software Engineer - UI Platform",
+      "website": "https://www.omio.com/",
+      "startDate": "2019-01-01",
+      "summary": "The main objective of this team is to ensure the quality of all the projects inside the company. Therefore the communication and feedback across teams is crucial. Technologies involved: React, React Native, Jest, Typescript, Storybook, Cypress, Styled Components. Actions we did to achieve this objective:",
+      "highlights": [
+        "Build a development framework for all frontend teams, which creates stack consistency within all teams and speed up the development process.",
+        "Re design architecture of communication layer and composition between Native apps and React Native.",
+        "Improve and maintain the company's component library - React and React Native."
+      ]
+    },
+    {
+      "company": "intive-FDV",
+      "position": "Web Development Team Lead",
+      "website": "https://www.intive.com/en",
+      "startDate": "2018-03-01",
+      "summary": "Project for an important air flight company located in the US. Remote collaboration was a daily challenge with members located in more than 5 countries. I had to lead a team of Web developers located in Argentina and actively collaborate with Product Owners and Managers in the United States. The main challenge was to ensure the same development practices and processes along the whole project. Tech: React, Redux, Ramda, Jest, css modules.",
+      "highlights": [],
+      "endDate": "2018-08-01"
+    },
+    {
+      "company": "Open Source",
+      "position": "Open Source Developer",
+      "website": "http://github.com/EmaSuriano",
+      "startDate": "2018-01-01",
+      "summary": "Maintainer of several open source projects, and contributor on organizations as well as projects from individual members.",
+      "highlights": []
+    },
+    {
+      "company": "Globant",
+      "position": "Web Developer",
+      "website": "",
+      "startDate": "2015-10-01",
+      "summary": ".Net C#, Angular JS, Entity Framework, MVC, WEB API",
+      "highlights": [],
+      "endDate": "2016-08-01"
+    },
+    {
+      "company": "Qservices",
+      "position": "Sofware Developer",
+      "website": "",
+      "startDate": "2014-08-01",
+      "summary": "ASP .NET C#, Jquery, Bootrstap, SQL",
+      "highlights": [],
+      "endDate": "2015-10-01"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Nacional de La Matanza",
+      "area": "",
+      "studyType": "Master's degree",
+      "startDate": "2011-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2017-01-01"
+    },
+    {
+      "institution": "ITI San Judas Tadeo",
+      "area": "",
+      "studyType": "High School Diploma",
+      "startDate": "2009-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2011-01-01"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native or bilingual proficiency"
+    },
+    {
+      "language": "English",
+      "fluency": "Full professional proficiency"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Gatsby Starter Mate",
+      "releaseDate": "2018-08-01",
+      "summary": "A portfolio starter for Gatsby integrated with Contentful CMS.  Technologies used: - Gatsby - Rebass - React Reveal - Dynamic content from Contentful - Offline support - PWA with Gatsby - Netlify Deployment Friendly - Medium integration - Social sharing (Twitter, Facebook, Google, LinkedIn) - Google Analytics",
+      "website": "https://github.com/EmaSuriano/gatsby-starter-mate"
+    },
+    {
+      "name": "react-hotkey-tooltip",
+      "releaseDate": "2018-03-01",
+      "summary": "A global Hotkey provider with built in tooltip for React.  Why mess up with document.addEventListener or positioning/styling tooltips if there are a lot of open source libraries that can do that for me. These are the chosen ones! - mousetrap: to bind and unbind hotkeys globally 🌐 - react-tippy: to display beautiful tooltips 😄",
+      "website": "https://github.com/EmaSuriano/react-hotkey-tooltip"
+    },
+    {
+      "name": "Blindle",
+      "releaseDate": "2017-03-01",
+      "summary": "Open source device that teaches you Braille, driven by the need in the device market for blind people.  What did we implement in order to accomplish this? - Raspberry pi, code written in python - Arduino board, code written in Arduino - 3D models, made with Inventor and Tinkercad - Electronic Board, designed with kiCad - Box, which works as container of all the components",
+      "website": "http://blindle.github.io"
+    }
+  ]
+}

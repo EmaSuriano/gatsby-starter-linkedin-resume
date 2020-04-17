@@ -1,0 +1,20 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/EmaSuriano/resume.git",
+  "author": "EmaSuriano <emanuel.suriano@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby": "^2.20.24",
+    "gatsby-theme-jsonresume": "^1.0.2",
+    "jsonresume-theme-standard-resume": "^1.0.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "scripts": {
+    "start": "yarn build && gatsby serve",
+    "build": "gatsby build",
+    "test": "echo 'not there yet ...'"
+  }
+}
