@@ -5061,10 +5061,10 @@ gatsby-telemetry@^1.2.5:
     stack-utils "1.0.2"
     uuid "3.4.0"
 
-gatsby-theme-jsonresume@^1.0.2:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-jsonresume/-/gatsby-theme-jsonresume-1.0.3.tgz#34536fb7d1cb96d09bdea3998764af9779865771"
-  integrity sha512-tnmZu0Enr31jOi8ZIZNP60umW4N3ipLpsXDh1vk0SlRSFEc54brWAJpvTBFc+8v3rUmOAuM3S6j+v+b+7Ik0LA==
+gatsby-theme-jsonresume@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-jsonresume/-/gatsby-theme-jsonresume-1.0.6.tgz#1274199d9237d4f74b074d8bcec995dd57c0ae77"
+  integrity sha512-lAtxGJC9KsTuXXFIXlEzKD8PtC4NesjQDwkU+RmTtWdcU7QTLD3R7aqHYJO8vv0dxPOsRCTK9Y40KCJvWUQoiw==
   dependencies:
     resume-cli "^1.2.7"
 
