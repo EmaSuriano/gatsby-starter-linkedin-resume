@@ -10,10 +10,15 @@
     "gatsby-theme-jsonresume": "^1.0.6",
     "jsonresume-theme-standard-resume": "^1.0.3",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "scrapedin": "^1.0.14"
   },
   "scripts": {
+    "prebuild": "node index",
     "start": "yarn build && gatsby serve",
     "build": "gatsby build"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
   }
 }

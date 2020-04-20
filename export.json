@@ -1,0 +1,381 @@
+{
+  "contact": [
+    {
+      "type": "Your Profile",
+      "values": [
+        "linkedin.com/in/emanuel-suriano"
+      ]
+    },
+    {
+      "type": "Websites",
+      "values": [
+        "emasuriano.com  (Personal Website)",
+        "github.com/EmaSuriano  (Portfolio)"
+      ]
+    },
+    {
+      "type": "Phone",
+      "values": [
+        "+491727689000 (Mobile)"
+      ]
+    },
+    {
+      "type": "Address",
+      "values": [
+        "Berlin, Germany"
+      ]
+    },
+    {
+      "type": "Email",
+      "values": [
+        "emanuel.suriano@gmail.com"
+      ]
+    },
+    {
+      "type": "Birthday",
+      "values": [
+        "July 27"
+      ]
+    }
+  ],
+  "profileAlternative": {
+    "name": "Emanuel Suriano",
+    "headline": "Senior Software Engineer at Omio",
+    "imageurl": "https://media-exp1.licdn.com/dms/image/C4D03AQGwsLuvWm8psQ/profile-displayphoto-shrink_200_200/0?e=1593043200&v=beta&t=BDcQ1FdQSEyi_zEUCdZN_Pgcn12VFlE3ZBEiy87Nw9o",
+    "summary": "I am a motivated, enthusiastic person, and passionate about new technologies. Always building side projects which allow me to always be up to date with the current stack in the field.\n\nI firmly believe in the Open Source philosophy, therefore I am a maintainer of some Open Source project, you can find them inside my GitHub profile. Also, I am keen to contribute to Open Source projects whenever I can because I think is the best to grow as a community."
+  },
+  "aboutAlternative": {
+    "text": "I am a motivated, enthusiastic person, and passionate about new technologies. Always building side projects which allow me to always be up to date with the current stack in the field.\n\nI firmly believe in the Open Source philosophy, therefore I am a maintainer of some Open Source project, you can find them inside my GitHub profile. Also, I am keen to contribute to Open Source projects whenever I can because I think is the best to grow as a community."
+  },
+  "positions": [
+    {
+      "title": "Omio",
+      "location": "Berlin Area, Germany",
+      "description": "The main objective of this team is to ensure the quality of all the projects inside the company. Therefore the communication and feedback across teams is crucial.\n\nActions we did to achieve this objective:\n- Build a development framework for all frontend teams, which creates stack consistency within all teams and speed up the development process.\n- Re design architecture of communication layer and composition between Native apps and React Native.\n- Improve and maintain the company's component library - React and React Native.\n\nTechnologies involved: React, React Native, Jest, Typescript, Storybook, Cypress, Styled Components.\n…\n",
+      "date1": "Jan 2019 – Present",
+      "date2": "1 yr 4 mos",
+      "roles": [
+        {
+          "title": "Senior Software Engineer - UI Platform",
+          "description": "The main objective of this team is to ensure the quality of all the projects inside the company. Therefore the communication and feedback across teams is crucial.\n\nActions we did to achieve this objective:\n- Build a development framework for all frontend teams, which creates stack consistency within all teams and speed up the development process.\n- Re design architecture of communication layer and composition between Native apps and React Native.\n- Improve and maintain the company's component library - React and React Native.\n\nTechnologies involved: React, React Native, Jest, Typescript, Storybook, Cypress, Styled Components.\n…\n",
+          "date1": "Jan 2019 – Present",
+          "date2": "1 yr 4 mos",
+          "location": "Berlin Area, Germany"
+        },
+        {
+          "title": "Software Engineer - Booking Team",
+          "description": "Booking is the last step of the process of buying a ticket and one of the most important one due to a fail in this system means user won't come back to the platform. For that reason, it has to be secure and efficient.\n\nOne of the biggest challenge was to keep up to date on the status with all teams and the dependencies connected with us.\n\nOn each stage of booking there were different challenges to adress:\n- Pre booking: request information to users depending on the provider.\n- Booking: different payment methods and fraud.\n- Post booking: email delivery.\n\nTech: React, Css Modules, Storybook, Jest.\n…\n",
+          "date1": "Aug 2018 – Jan 2019",
+          "date2": "6 mos",
+          "location": "Berlin, Berlin, Germany"
+        }
+      ]
+    },
+    {
+      "title": "Title\nSenior Software Engineer - UI Platform",
+      "location": "Berlin Area, Germany",
+      "description": "The main objective of this team is to ensure the quality of all the projects inside the company. Therefore the communication and feedback across teams is crucial.\n\nActions we did to achieve this objective:\n- Build a development framework for all frontend teams, which creates stack consistency within all teams and speed up the development process.\n- Re design architecture of communication layer and composition between Native apps and React Native.\n- Improve and maintain the company's component library - React and React Native.\n\nTechnologies involved: React, React Native, Jest, Typescript, Storybook, Cypress, Styled Components.\n…\n",
+      "date1": "Jan 2019 – Present",
+      "date2": "1 yr 4 mos",
+      "roles": [
+        {
+          "title": "Senior Software Engineer - UI Platform",
+          "description": "The main objective of this team is to ensure the quality of all the projects inside the company. Therefore the communication and feedback across teams is crucial.\n\nActions we did to achieve this objective:\n- Build a development framework for all frontend teams, which creates stack consistency within all teams and speed up the development process.\n- Re design architecture of communication layer and composition between Native apps and React Native.\n- Improve and maintain the company's component library - React and React Native.\n\nTechnologies involved: React, React Native, Jest, Typescript, Storybook, Cypress, Styled Components.\n…\n",
+          "date1": "Jan 2019 – Present",
+          "date2": "1 yr 4 mos",
+          "location": "Berlin Area, Germany"
+        }
+      ]
+    },
+    {
+      "title": "Title\nSoftware Engineer - Booking Team",
+      "location": "Berlin, Berlin, Germany",
+      "description": "Booking is the last step of the process of buying a ticket and one of the most important one due to a fail in this system means user won't come back to the platform. For that reason, it has to be secure and efficient.\n\nOne of the biggest challenge was to keep up to date on the status with all teams and the dependencies connected with us.\n\nOn each stage of booking there were different challenges to adress:\n- Pre booking: request information to users depending on the provider.\n- Booking: different payment methods and fraud.\n- Post booking: email delivery.\n\nTech: React, Css Modules, Storybook, Jest.\n…\n",
+      "date1": "Aug 2018 – Jan 2019",
+      "date2": "6 mos",
+      "roles": [
+        {
+          "title": "Software Engineer - Booking Team",
+          "description": "Booking is the last step of the process of buying a ticket and one of the most important one due to a fail in this system means user won't come back to the platform. For that reason, it has to be secure and efficient.\n\nOne of the biggest challenge was to keep up to date on the status with all teams and the dependencies connected with us.\n\nOn each stage of booking there were different challenges to adress:\n- Pre booking: request information to users depending on the provider.\n- Booking: different payment methods and fraud.\n- Post booking: email delivery.\n\nTech: React, Css Modules, Storybook, Jest.\n…\n",
+          "date1": "Aug 2018 – Jan 2019",
+          "date2": "6 mos",
+          "location": "Berlin, Berlin, Germany"
+        }
+      ]
+    },
+    {
+      "title": "Open Source Developer",
+      "companyName": "Open Source Self-employed",
+      "description": "Maintainer of several open source projects and contributor on organisations as well as projects from invidivual members.\n\nFor more information, check my Github profile.",
+      "date1": "Jan 2018 – Present",
+      "date2": "2 yrs 4 mos"
+    },
+    {
+      "title": "intive-FDV",
+      "location": "Greater Buenos Aires, Argentina",
+      "description": "Project for an important air flight company located in the US. Remote collaboration was a daily challenge with members located in more than 5 countries.\n\nI had to lead a team of Web developers located in Argentina and actively collaborate with Product Owners and Managers in the United States.\n\nThe main challenge was to ensure the same development practices and processes along the whole project.\n\nTech: React, Redux, Ramda, Jest, css modules.\n…\n",
+      "date1": "Mar 2018 – Aug 2018",
+      "date2": "6 mos",
+      "roles": [
+        {
+          "title": "Web Development Team Lead",
+          "description": "Project for an important air flight company located in the US. Remote collaboration was a daily challenge with members located in more than 5 countries.\n\nI had to lead a team of Web developers located in Argentina and actively collaborate with Product Owners and Managers in the United States.\n\nThe main challenge was to ensure the same development practices and processes along the whole project.\n\nTech: React, Redux, Ramda, Jest, css modules.\n…\n",
+          "date1": "Mar 2018 – Aug 2018",
+          "date2": "6 mos",
+          "location": "Greater Buenos Aires, Argentina"
+        },
+        {
+          "title": "Web Developer",
+          "description": "Project for an USA client which was a suite of 12 products built upon a SPA. We build the foundation of the project from the beginning, starting with only one product and then re using as many components as possible in the other products.\n\nThe development team was located inside Argentina and the product owners were in the States. Nevertheless we followed Scrum practices without any problem.\n\nTech: React, Redux, Jest, Sass, Storybook.\n…\n",
+          "date1": "Aug 2016 – Feb 2018",
+          "date2": "1 yr 7 mos",
+          "location": "Greater Buenos Aires, Argentina"
+        }
+      ]
+    },
+    {
+      "title": "Title\nWeb Development Team Lead",
+      "location": "Greater Buenos Aires, Argentina",
+      "description": "Project for an important air flight company located in the US. Remote collaboration was a daily challenge with members located in more than 5 countries.\n\nI had to lead a team of Web developers located in Argentina and actively collaborate with Product Owners and Managers in the United States.\n\nThe main challenge was to ensure the same development practices and processes along the whole project.\n\nTech: React, Redux, Ramda, Jest, css modules.\n…\n",
+      "date1": "Mar 2018 – Aug 2018",
+      "date2": "6 mos",
+      "roles": [
+        {
+          "title": "Web Development Team Lead",
+          "description": "Project for an important air flight company located in the US. Remote collaboration was a daily challenge with members located in more than 5 countries.\n\nI had to lead a team of Web developers located in Argentina and actively collaborate with Product Owners and Managers in the United States.\n\nThe main challenge was to ensure the same development practices and processes along the whole project.\n\nTech: React, Redux, Ramda, Jest, css modules.\n…\n",
+          "date1": "Mar 2018 – Aug 2018",
+          "date2": "6 mos",
+          "location": "Greater Buenos Aires, Argentina"
+        }
+      ]
+    },
+    {
+      "title": "Title\nWeb Developer",
+      "location": "Greater Buenos Aires, Argentina",
+      "description": "Project for an USA client which was a suite of 12 products built upon a SPA. We build the foundation of the project from the beginning, starting with only one product and then re using as many components as possible in the other products.\n\nThe development team was located inside Argentina and the product owners were in the States. Nevertheless we followed Scrum practices without any problem.\n\nTech: React, Redux, Jest, Sass, Storybook.\n…\n",
+      "date1": "Aug 2016 – Feb 2018",
+      "date2": "1 yr 7 mos",
+      "roles": [
+        {
+          "title": "Web Developer",
+          "description": "Project for an USA client which was a suite of 12 products built upon a SPA. We build the foundation of the project from the beginning, starting with only one product and then re using as many components as possible in the other products.\n\nThe development team was located inside Argentina and the product owners were in the States. Nevertheless we followed Scrum practices without any problem.\n\nTech: React, Redux, Jest, Sass, Storybook.\n…\n",
+          "date1": "Aug 2016 – Feb 2018",
+          "date2": "1 yr 7 mos",
+          "location": "Greater Buenos Aires, Argentina"
+        }
+      ]
+    },
+    {
+      "title": "Web Developer",
+      "companyName": "Globant",
+      "location": "Greater Buenos Aires, Argentina",
+      "description": ".Net C#, Angular JS, Entity Framework, MVC, WEB API",
+      "date1": "Sep 2015 – Aug 2016",
+      "date2": "1 yr"
+    },
+    {
+      "title": "Sofware Developer",
+      "companyName": "Qservices",
+      "location": "Greater Buenos Aires, Argentina",
+      "description": "ASP .NET C#, Jquery, Bootrstap, SQL",
+      "date1": "Aug 2014 – Sep 2015",
+      "date2": "1 yr 2 mos"
+    }
+  ],
+  "educations": [
+    {
+      "title": "Universidad Nacional de La Matanza",
+      "degree": "Master's degree",
+      "fieldofstudy": "Computer Engineering",
+      "date1": "2011",
+      "date2": "2017"
+    },
+    {
+      "title": "ITI San Judas Tadeo",
+      "degree": "High School Diploma",
+      "fieldofstudy": "Information Technology",
+      "date1": "2009",
+      "date2": "2011"
+    }
+  ],
+  "skills": [
+    {
+      "title": "React.js",
+      "count": "9"
+    },
+    {
+      "title": "JavaScript",
+      "count": "13"
+    },
+    {
+      "title": "React Native",
+      "count": "1"
+    },
+    {
+      "title": "Scrum",
+      "count": "2"
+    },
+    {
+      "title": "Web Development",
+      "count": "2"
+    },
+    {
+      "title": "Unit Testing",
+      "count": "1"
+    },
+    {
+      "title": "Integration Testing",
+      "count": "1"
+    },
+    {
+      "title": "SQL",
+      "count": "13"
+    },
+    {
+      "title": "C#",
+      "count": "11"
+    },
+    {
+      "title": "HTML",
+      "count": "7"
+    },
+    {
+      "title": "MySQL",
+      "count": "5"
+    },
+    {
+      "title": "CSS",
+      "count": "4"
+    },
+    {
+      "title": "Git",
+      "count": "3"
+    },
+    {
+      "title": "SASS",
+      "count": "1"
+    },
+    {
+      "title": "Github",
+      "count": "1"
+    },
+    {
+      "title": "Redux",
+      "count": "6"
+    },
+    {
+      "title": "Webpack",
+      "count": "2"
+    },
+    {
+      "title": "Functional Programming",
+      "count": "2"
+    },
+    {
+      "title": "End-to-end Testing",
+      "count": "2"
+    },
+    {
+      "title": "Gatsby",
+      "count": "1"
+    },
+    {
+      "title": "GraphQL"
+    },
+    {
+      "title": "TypeScript",
+      "count": "1"
+    },
+    {
+      "title": "Jest"
+    }
+  ],
+  "recommendations": {
+    "givenCount": "0",
+    "receivedCount": "0",
+    "given": [],
+    "received": []
+  },
+  "accomplishments": [
+    {
+      "count": "3",
+      "title": "Courses",
+      "items": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "GDG DevFest Arg",
+        "NodeConf Arg",
+        "React Amsterdam",
+        "English",
+        "German",
+        "Spanish",
+        "Gatsby Starter Mate",
+        "react-hotkey-tooltip",
+        "Blindle"
+      ]
+    }
+  ],
+  "peopleAlsoViewed": [
+    {
+      "user": "https://www.linkedin.com/in/angelo-carazzai-a39b0774/",
+      "text": "Senior Software Engineer at Omio"
+    },
+    {
+      "user": "https://www.linkedin.com/in/sivasubramaniama/",
+      "text": "Software Engineer at Omio"
+    },
+    {
+      "user": "https://www.linkedin.com/in/maitrivarma/",
+      "text": "Senior Product Manager"
+    },
+    {
+      "user": "https://www.linkedin.com/in/giacomo-melandri-30556429/",
+      "text": "Organic Mobile Growth Lead at Omio"
+    },
+    {
+      "user": "https://www.linkedin.com/in/louisdelaye/",
+      "text": "Marketing Analyst at Omio (formerly GoEuro)"
+    },
+    {
+      "user": "https://www.linkedin.com/in/lucas-riveill-31008810/",
+      "text": "Trainee Software Developer chez Omio"
+    },
+    {
+      "user": "https://www.linkedin.com/in/daniel-olel/",
+      "text": "Senior Data Scientist - Data & ML | Machine Learning | Data Engineering | Data Science Products"
+    },
+    {
+      "user": "https://www.linkedin.com/in/christopheguillonnet/",
+      "text": "Product Manager at Sesame"
+    },
+    {
+      "user": "https://www.linkedin.com/in/omri-zaied-34596b69/",
+      "text": "Engineering Manager at Omio"
+    },
+    {
+      "user": "https://www.linkedin.com/in/martadominguezg/",
+      "text": "Influencer Marketing Manager at GoEuro"
+    }
+  ],
+  "volunteerExperience": [
+    {
+      "title": "Developer FrontEnd/Backend(PHP)",
+      "experience": "Gobierno de la Ciudad de Buenos Aires",
+      "description": "Arts and Culture",
+      "date1": "Jun 2015",
+      "date2": "1 mo"
+    }
+  ],
+  "profile": {
+    "name": "Emanuel Suriano",
+    "headline": "Senior Software Engineer at Omio",
+    "imageurl": "https://media-exp1.licdn.com/dms/image/C4D03AQGwsLuvWm8psQ/profile-displayphoto-shrink_200_200/0?e=1593043200&v=beta&t=BDcQ1FdQSEyi_zEUCdZN_Pgcn12VFlE3ZBEiy87Nw9o",
+    "summary": "I am a motivated, enthusiastic person, and passionate about new technologies. Always building side projects which allow me to always be up to date with the current stack in the field.\n\nI firmly believe in the Open Source philosophy, therefore I am a maintainer of some Open Source project, you can find them inside my GitHub profile. Also, I am keen to contribute to Open Source projects whenever I can because I think is the best to grow as a community."
+  }
+}
