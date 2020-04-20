@@ -9,8 +9,9 @@
     {
       "type": "Websites",
       "values": [
-        "emasuriano.com  (Personal Website)",
-        "github.com/EmaSuriano  (Portfolio)"
+        "emasuriano.com/  (Personal Website)",
+        "github.com/EmaSuriano  (Github)",
+        "emasuriano.com/blog  (Blog)"
       ]
     },
     {
@@ -321,6 +322,7 @@
       ]
     }
   ],
+  "courses": [],
   "peopleAlsoViewed": [
     {
       "user": "https://www.linkedin.com/in/angelo-carazzai-a39b0774/",
@@ -332,7 +334,7 @@
     },
     {
       "user": "https://www.linkedin.com/in/maitrivarma/",
-      "text": "Senior Product Manager"
+      "text": "Senior Product Manager at Omio"
     },
     {
       "user": "https://www.linkedin.com/in/giacomo-melandri-30556429/",

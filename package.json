@@ -10,15 +10,18 @@
     "gatsby-theme-jsonresume": "^1.0.6",
     "jsonresume-theme-standard-resume": "^1.0.3",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "scrapedin": "^1.0.14"
+    "react-dom": "^16.13.1"
   },
   "scripts": {
-    "prebuild": "node index",
+    "prebuild": "ts-node getLinkedInData.ts",
     "start": "yarn build && gatsby serve",
     "build": "gatsby build"
   },
   "devDependencies": {
-    "dotenv": "^8.2.0"
+    "@types/node": "^13.13.1",
+    "dotenv": "^8.2.0",
+    "scrapedin": "^1.0.14",
+    "ts-node": "^8.9.0",
+    "typescript": "^3.8.3"
   }
 }

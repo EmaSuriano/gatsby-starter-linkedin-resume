@@ -1,6 +1,6 @@
-const scrapedin = require('scrapedin');
-const fs = require('fs');
-const path = require('path');
+import scrapedin from 'scrapedin';
+import fs from 'fs';
+import path from 'path';
 require('dotenv').config();
 
 const log = (...args) => console.log('[LOG]: ', ...args);
@@ -14,6 +14,8 @@ const main = async () => {
     email: EMAIL,
     password: PASS,
     hasToGetContactInfo: true,
+    isHeadless: false,
+    hasToLog: true,
   });
 
   log('Getting profile info');
