@@ -323,48 +323,41 @@
     }
   ],
   "courses": [],
-  "peopleAlsoViewed": [
+  "languages": [
     {
-      "user": "https://www.linkedin.com/in/angelo-carazzai-a39b0774/",
-      "text": "Senior Software Engineer at Omio"
+      "name": "English",
+      "proficiency": "Full professional proficiency"
     },
     {
-      "user": "https://www.linkedin.com/in/sivasubramaniama/",
-      "text": "Software Engineer at Omio"
+      "name": "German",
+      "proficiency": "Limited working proficiency"
     },
     {
-      "user": "https://www.linkedin.com/in/maitrivarma/",
-      "text": "Senior Product Manager at Omio"
-    },
-    {
-      "user": "https://www.linkedin.com/in/giacomo-melandri-30556429/",
-      "text": "Organic Mobile Growth Lead at Omio"
-    },
-    {
-      "user": "https://www.linkedin.com/in/louisdelaye/",
-      "text": "Marketing Analyst at Omio (formerly GoEuro)"
-    },
-    {
-      "user": "https://www.linkedin.com/in/lucas-riveill-31008810/",
-      "text": "Trainee Software Developer chez Omio"
-    },
-    {
-      "user": "https://www.linkedin.com/in/daniel-olel/",
-      "text": "Senior Data Scientist - Data & ML | Machine Learning | Data Engineering | Data Science Products"
-    },
-    {
-      "user": "https://www.linkedin.com/in/christopheguillonnet/",
-      "text": "Product Manager at Sesame"
-    },
-    {
-      "user": "https://www.linkedin.com/in/omri-zaied-34596b69/",
-      "text": "Engineering Manager at Omio"
-    },
-    {
-      "user": "https://www.linkedin.com/in/martadominguezg/",
-      "text": "Influencer Marketing Manager at GoEuro"
+      "name": "Spanish",
+      "proficiency": "Native or bilingual proficiency"
     }
   ],
+  "projects": [
+    {
+      "name": "Gatsby Starter Mate",
+      "date": "Aug 2018 – Present",
+      "description": "A portfolio starter for Gatsby integrated with Contentful CMS.\n\nTechnologies used:\n- Gatsby\n- Rebass\n- React Reveal\n- Dynamic content from Contentful\n- Offline support\n- PWA with Gatsby\n- Netlify Deployment Friendly\n- Medium integration\n- Social sharing (Twitter, Facebook, Google, LinkedIn)\n- Google Analytics",
+      "link": "https://github.com/EmaSuriano/gatsby-starter-mate"
+    },
+    {
+      "name": "react-hotkey-tooltip",
+      "date": "Feb 2018 – Present",
+      "description": "A global Hotkey provider with built in tooltip for React.\n\nWhy mess up with document.addEventListener or positioning/styling tooltips if there are a lot of open source libraries that can do that for me. These are the chosen ones!\n- mousetrap: to bind and unbind hotkeys globally 🌐\n- react-tippy: to display beautiful tooltips 😄",
+      "link": "https://github.com/EmaSuriano/react-hotkey-tooltip"
+    },
+    {
+      "name": "Blindle",
+      "date": "Mar 2017 – Oct 2017",
+      "description": "Open source device that teaches you Braille, driven by the need in the device market for blind people.\n\nWhat did we implement in order to accomplish this?\n- Raspberry pi, code written in python\n- Arduino board, code written in Arduino\n- 3D models, made with Inventor and Tinkercad\n- Electronic Board, designed with kiCad\n- Box, which works as container of all the components",
+      "link": "http://blindle.github.io/"
+    }
+  ],
+  "peopleAlsoViewed": [],
   "volunteerExperience": [
     {
       "title": "Developer FrontEnd/Backend(PHP)",

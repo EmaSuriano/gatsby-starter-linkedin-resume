@@ -104,3 +104,6 @@ dist
 .tern-port
 static/
 public/
+
+./resume.json
+./linked-in-data.json

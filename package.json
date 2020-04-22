@@ -13,13 +13,16 @@
     "react-dom": "^16.13.1"
   },
   "scripts": {
-    "prebuild": "ts-node getLinkedInData.ts",
+    "generate-resume": "ts-node src",
     "start": "yarn build && gatsby serve",
     "build": "gatsby build"
   },
   "devDependencies": {
     "@types/node": "^13.13.1",
+    "chalk": "^4.0.0",
+    "commander": "^5.0.0",
     "dotenv": "^8.2.0",
+    "inquirer": "^7.1.0",
     "scrapedin": "^1.0.14",
     "ts-node": "^8.9.0",
     "typescript": "^3.8.3"
