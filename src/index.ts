@@ -2,7 +2,6 @@ import { program } from 'commander';
 import fs from 'fs';
 import { log } from './utils/log';
 import { RESUME_PATH, LINKED_IN_PATH } from './utils/path';
-import { LinkedInSchema } from './types/LinkedIn';
 import mapLinkedInToJSONResume from './utils/mapLinkedInToJSONResume';
 import inquireLoginData from './utils/inquireLoginData';
 import getLinkedInData from './utils/getLinkedInData';

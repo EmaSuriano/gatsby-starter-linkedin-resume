@@ -13,11 +13,13 @@
     "react-dom": "^16.13.1"
   },
   "scripts": {
+    "type-check": "tsc -p . --noEmit",
     "generate-resume": "ts-node src",
     "start": "yarn build && gatsby serve",
     "build": "gatsby build"
   },
   "devDependencies": {
+    "@kurone-kito/jsonresume-types": "^0.1.2",
     "@types/node": "^13.13.1",
     "chalk": "^4.0.0",
     "commander": "^5.0.0",

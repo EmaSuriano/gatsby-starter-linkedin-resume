@@ -1,11 +1,8 @@
-import { LinkedInSchema } from '../types/LinkedIn';
-import { JSONResumeSchema } from '../types/JsonResume';
+import { ResumeSchema } from '@kurone-kito/jsonresume-types';
 
-const mapLinkedInToJSONResume = (
-  linkedIn: LinkedInSchema,
-): JSONResumeSchema => {
+const mapLinkedInToJSONResume = (linkedIn: LinkedInSchema): ResumeSchema => {
   const resume = {
-    a: true,
+    basics: {},
   };
 
   return resume;

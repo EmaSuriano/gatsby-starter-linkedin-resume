@@ -1,4 +1,4 @@
-export type ContactType =
+type ContactType =
   | 'Your Profile'
   | 'Your Profile'
   | 'Websites'
@@ -7,28 +7,29 @@ export type ContactType =
   | 'Email'
   | 'Birthday';
 
-export type ContactItem = {
+type ContactItem = {
   type: ContactType;
-  value: string[];
+  values: string[];
 };
 
-export type ProfileData = {
+type ProfileData = {
   name: string;
   headline: string;
   imageurl: string;
   summary: string;
 };
 
-export type Position = {
+type PositionInfo = {
   title: string;
   location: string;
   description: string;
+  companyName?: string;
   date1: string;
   date2: string;
-  roles?: Position[];
+  roles?: PositionInfo[];
 };
 
-export type Education = {
+type Education = {
   title: string;
   degree: string;
   fieldofstudy: string;
@@ -36,37 +37,37 @@ export type Education = {
   date2: number;
 };
 
-export type Skill = {
+type Skill = {
   title: string;
-  count: number;
+  count: string;
 };
 
-export type Course = {
+type Course = {
   name: string;
-  year: number;
+  year: string;
 };
 
-export type LanguageProficiency =
+type LanguageProficiency =
   | 'Full professional proficiency'
   | 'Limited working proficiency'
   | 'Native or bilingual proficiency';
 
-export type Language = {
+type Language = {
   name: string;
   proficiency: LanguageProficiency;
 };
 
-export type Project = {
+type Project = {
   name: string;
   date: string;
   description: string;
   link: string;
 };
 
-export type LinkedInSchema = {
+type LinkedInSchema = {
   contact: ContactItem[];
   profile: ProfileData;
-  positions: Position[];
+  positions: PositionInfo[];
   educations: Education[];
   skills: Skill[];
   courses: Course[];
