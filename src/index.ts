@@ -5,7 +5,6 @@ import { RESUME_PATH, LINKED_IN_PATH } from './utils/path';
 import mapLinkedInToJSONResume from './utils/mapLinkedInToJSONResume';
 import inquireLoginData from './utils/inquireLoginData';
 import getLinkedInData from './utils/getLinkedInData';
-import LinkedInSchema from './types/LinkedInSchema';
 import validateLinkedInSchema from './types/LinkedInSchema.validator';
 
 type CLIParams = {
@@ -21,10 +20,9 @@ const main = async ({ renew }: CLIParams) => {
     log('LinkedIn Information saved!', LINKED_IN_PATH);
   }
 
-  const linkedInData: LinkedInSchema = JSON.parse(
-    fs.readFileSync(LINKED_IN_PATH).toString(),
+  const linkedInData = validateLinkedInSchema(
+    JSON.parse(fs.readFileSync(LINKED_IN_PATH).toString()),
   );
-  validateLinkedInSchema(linkedInData);
 
   log('Parsing LinkedIn data into JSON Resume ...');
   const jsonResumeData = mapLinkedInToJSONResume(linkedInData);

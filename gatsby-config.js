@@ -6,8 +6,7 @@ if (!require.resolve('./src/resume.json')) {
   );
 }
 
-const resumeJson = require('./src/resume.json');
-validate(resumeJson);
+const resumeJson = validate(require('./src/resume.json'));
 
 module.exports = {
   plugins: [
