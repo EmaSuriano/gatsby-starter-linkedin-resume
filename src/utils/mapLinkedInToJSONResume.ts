@@ -1,3 +1,10 @@
+import LinkedInSchema from '../types/LinkedInSchema';
+import JsonResumeSchema, {
+  JsonResumeBasics,
+  JsonResumeWork,
+  JsonResumeEducation,
+} from '../types/JsonResumeSchema';
+
 const mapToBasics = (linkedIn: LinkedInSchema): JsonResumeBasics => {
   return {
     name: 'string;',

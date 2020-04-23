@@ -1,87 +1,10 @@
-type ContactType =
-  | 'Your Profile'
-  | 'Your Profile'
-  | 'Websites'
-  | 'Phone'
-  | 'Address'
-  | 'Email'
-  | 'Birthday';
-
-type ContactItem = {
-  type: ContactType;
-  values: string[];
-};
-
-type ProfileData = {
-  name: string;
-  headline: string;
-  imageurl: string;
-  summary: string;
-};
-
-type PositionInfo = {
-  title: string;
-  location: string;
-  description: string;
-  companyName?: string;
-  date1: string;
-  date2: string;
-  roles?: PositionInfo[];
-};
-
-type Education = {
-  title: string;
-  degree: string;
-  fieldofstudy: string;
-  date1: number;
-  date2: number;
-};
-
-type Skill = {
-  title: string;
-  count: string;
-};
-
-type Course = {
-  name: string;
-  year: string;
-};
-
-type LanguageProficiency =
-  | 'Full professional proficiency'
-  | 'Limited working proficiency'
-  | 'Native or bilingual proficiency';
-
-type LinkedInLanguage = {
-  name: string;
-  proficiency: LanguageProficiency;
-};
-
-type LinkedInProject = {
-  name: string;
-  date: string;
-  description: string;
-  link: string;
-};
-
-type LinkedInSchema = {
-  contact: ContactItem[];
-  profile: ProfileData;
-  positions: PositionInfo[];
-  educations: Education[];
-  skills: Skill[];
-  courses: Course[];
-  languages: LinkedInLanguage[];
-  projects: LinkedInProject[];
-};
-
-type JsonResumeProfile = {
+export type JsonResumeProfile = {
   network: string;
   username: string;
   url: string;
 };
 
-type JsonResumeBasics = {
+export type JsonResumeBasics = {
   name: string;
   label: string;
   image?: string;
@@ -99,7 +22,7 @@ type JsonResumeBasics = {
   profiles?: JsonResumeProfile[];
 };
 
-type JsonResumeWork = {
+export type JsonResumeWork = {
   name: string;
   location: string;
   description: string;
@@ -111,7 +34,7 @@ type JsonResumeWork = {
   highlights?: string[];
 };
 
-type JsonResumeVolunteer = {
+export type JsonResumeVolunteer = {
   organization: string;
   position?: string;
   url: string;
@@ -121,7 +44,7 @@ type JsonResumeVolunteer = {
   highlights?: string[];
 };
 
-type JsonResumeEducation = {
+export type JsonResumeEducation = {
   institution: string;
   area?: string;
   studyType: string;
@@ -131,14 +54,14 @@ type JsonResumeEducation = {
   courses?: string[];
 };
 
-type JsonResumeAward = {
+export type JsonResumeAward = {
   title: string;
   date: string;
   awarder?: string;
   summary: string;
 };
 
-type JsonResumePublication = {
+export type JsonResumePublication = {
   name: string;
   publisher?: string;
   releaseDate: string;
@@ -146,28 +69,28 @@ type JsonResumePublication = {
   summary: string;
 };
 
-type JsonResumeSkill = {
+export type JsonResumeSkill = {
   name: string;
   level?: string;
   keywords?: string[];
 };
 
-type JsonResumeLanguage = {
+export type JsonResumeLanguage = {
   language: string;
   fluency: string;
 };
 
-type JsonResumeInterest = {
+export type JsonResumeInterest = {
   name: string;
   keywords?: string[];
 };
 
-type JsonResumeReference = {
+export type JsonResumeReference = {
   name: string;
   reference: string;
 };
 
-type JsonResumeProject = {
+export type JsonResumeProject = {
   name: string;
   description: string;
   highlights: string[];
@@ -180,7 +103,7 @@ type JsonResumeProject = {
   type: string;
 };
 
-type JsonResumeSchema = {
+export default interface JsonResumeSchema {
   basics: JsonResumeBasics;
   work: JsonResumeWork[];
   volunteer?: JsonResumeVolunteer[];
@@ -192,4 +115,4 @@ type JsonResumeSchema = {
   interests?: JsonResumeInterest[];
   references?: JsonResumeReference[];
   projects?: JsonResumeProject[];
-};
+}

@@ -1,4 +1,4 @@
-const { validate } = require('resume-schema');
+const { default: validate } = require('./lib/types/JsonResumeSchema.validator');
 
 if (!require.resolve('./src/resume.json')) {
   throw new Error(
@@ -7,9 +7,7 @@ if (!require.resolve('./src/resume.json')) {
 }
 
 const resumeJson = require('./src/resume.json');
-validate(resumeJson, (err, { valid }) => {
-  if (err || !valid) throw new Error(err);
-});
+validate(resumeJson);
 
 module.exports = {
   plugins: [

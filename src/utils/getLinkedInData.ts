@@ -1,5 +1,6 @@
 import scrapedin from 'scrapedin';
 import { log } from './log';
+import LinkedInSchema from '../types/LinkedInSchema';
 
 const LINKED_IN_URL = 'https://www.linkedin.com/in/me';
 

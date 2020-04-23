@@ -7,7 +7,7 @@ const inquireLoginData = async () => {
     {
       name: 'email',
       message: 'Your Email',
-      validate: (value) => EMAIL_REGEX.test(value) || 'Invalid email',
+      validate: (value: string) => EMAIL_REGEX.test(value) || 'Invalid email',
     },
     {
       name: 'password',

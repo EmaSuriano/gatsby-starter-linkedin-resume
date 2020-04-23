@@ -14,12 +14,13 @@
   },
   "scripts": {
     "type-check": "tsc -p . --noEmit",
-    "generate-resume": "ts-node src",
+    "generate-validators": "typescript-json-validator src/types/LinkedInSchema.ts LinkedInSchema & typescript-json-validator src/types/JsonResumeSchema.ts JsonResumeSchema",
+    "generate-resume": "ts-node --files src",
     "start": "yarn build && gatsby serve",
-    "build": "gatsby build"
+    "build": "tsc -p . && gatsby build"
   },
   "devDependencies": {
-    "@kurone-kito/jsonresume-types": "^0.1.2",
+    "@types/inquirer": "^6.5.0",
     "@types/node": "^13.13.1",
     "chalk": "^4.0.0",
     "commander": "^5.0.0",
@@ -27,6 +28,7 @@
     "inquirer": "^7.1.0",
     "scrapedin": "^1.0.14",
     "ts-node": "^8.9.0",
-    "typescript": "^3.8.3"
+    "typescript": "^3.8.3",
+    "typescript-json-validator": "^2.4.2"
   }
 }
