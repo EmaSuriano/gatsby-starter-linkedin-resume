@@ -1,25 +1,39 @@
-import LinkedInSchema from '../types/LinkedInSchema';
+import LinkedInSchema, {
+  ContactItem,
+  ContactType,
+} from '../types/LinkedInSchema';
 import JsonResumeSchema, {
   JsonResumeBasics,
   JsonResumeWork,
   JsonResumeEducation,
 } from '../types/JsonResumeSchema';
 
+const getContactSection = (contactList: ContactItem[], type: ContactType) =>
+  contactList
+    .find((contact) => contact.type === type)
+    ?.values[0].replace(/\s+/g, ' ') || '';
+
 const mapToBasics = (linkedIn: LinkedInSchema): JsonResumeBasics => {
+  const { profile, contact } = linkedIn;
+  const [city, region] = getContactSection(contact, 'Address').split(', ');
+
   return {
-    name: 'string;',
-    label: 'string;',
-    image: 'string;',
-    email: 'string;',
-    phone: 'string;',
-    url: 'string;',
-    summary: 'string;',
+    name: profile.name,
+    label: profile.headline,
+    image: profile.imageurl,
+    email: getContactSection(contact, 'Email'),
+    phone: getContactSection(contact, 'Phone').replace(' (Mobile)', ''),
+    website: `https://${getContactSection(contact, 'Websites').replace(
+      ' (Personal Website)',
+      '',
+    )}`,
+    summary: profile.summary,
     location: {
-      address: 'string;',
-      postalCode: 'string;',
-      city: 'string;',
-      countryCode: 'string;',
-      region: 'string;',
+      address: '',
+      postalCode: '',
+      city,
+      countryCode: region,
+      region,
     },
   };
 };

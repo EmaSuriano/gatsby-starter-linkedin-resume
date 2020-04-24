@@ -2,22 +2,21 @@ import scrapedin from 'scrapedin';
 import { log } from './log';
 import LinkedInSchema from '../types/LinkedInSchema';
 
-const LINKED_IN_URL = 'https://www.linkedin.com/in/me';
+const PUBLIC_PROFILE_URL = 'https://www.linkedin.com/in/me';
 
-const getLinkedInData = async (
-  email: string,
-  password: string,
-  opts?: Object,
-) => {
+const getLinkedInData = async ({ email, password }: LoginCredentials) => {
+  log('Logging into LinkedIn ...');
+
   const profileScraper = await scrapedin({
     email,
     password,
     hasToGetContactInfo: true,
-    opts,
+    hasToLog: true,
   });
-  log('Logged into LinkedIn');
 
-  return profileScraper(LINKED_IN_URL) as LinkedInSchema;
+  log('Successfully logged!');
+
+  return profileScraper(PUBLIC_PROFILE_URL) as LinkedInSchema;
 };
 
 export default getLinkedInData;

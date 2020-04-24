@@ -2,9 +2,7 @@
   "contact": [
     {
       "type": "Your Profile",
-      "values": [
-        "linkedin.com/in/emanuel-suriano"
-      ]
+      "values": ["linkedin.com/in/emanuel-suriano"]
     },
     {
       "type": "Websites",
@@ -16,32 +14,24 @@
     },
     {
       "type": "Phone",
-      "values": [
-        "+491727689000 (Mobile)"
-      ]
+      "values": ["+491727689000 (Mobile)"]
     },
     {
       "type": "Address",
-      "values": [
-        "Berlin, Germany"
-      ]
+      "values": ["Berlin, Germany"]
     },
     {
       "type": "Email",
-      "values": [
-        "emanuel.suriano@gmail.com"
-      ]
+      "values": ["emanuel.suriano@gmail.com"]
     },
     {
       "type": "Birthday",
-      "values": [
-        "July 27"
-      ]
+      "values": ["July 27"]
     }
   ],
   "profileAlternative": {
     "name": "Emanuel Suriano",
-    "headline": "Senior Software Engineer at Omio",
+    "headline": "Senior Software Engineer",
     "imageurl": "https://media-exp1.licdn.com/dms/image/C4D03AQGwsLuvWm8psQ/profile-displayphoto-shrink_200_200/0?e=1593043200&v=beta&t=BDcQ1FdQSEyi_zEUCdZN_Pgcn12VFlE3ZBEiy87Nw9o",
     "summary": "I am a motivated, enthusiastic person, and passionate about new technologies. Always building side projects which allow me to always be up to date with the current stack in the field.\n\nI firmly believe in the Open Source philosophy, therefore I am a maintainer of some Open Source project, you can find them inside my GitHub profile. Also, I am keen to contribute to Open Source projects whenever I can because I think is the best to grow as a community."
   },
@@ -107,7 +97,7 @@
     {
       "title": "Open Source Developer",
       "companyName": "Open Source Self-employed",
-      "description": "Maintainer of several open source projects and contributor on organisations as well as projects from invidivual members.\n\nFor more information, check my Github profile.",
+      "description": "I am a maintainer of several open-source projects and I actively contribute to repositories from organizations as well as projects from individual members.\n\nFor more information, check my Github profile.",
       "date1": "Jan 2018 – Present",
       "date2": "2 yrs 4 mos"
     },
@@ -168,7 +158,7 @@
     },
     {
       "title": "Web Developer",
-      "companyName": "Globant",
+      "companyName": "Globant Full-time",
       "location": "Greater Buenos Aires, Argentina",
       "description": ".Net C#, Angular JS, Entity Framework, MVC, WEB API",
       "date1": "Sep 2015 – Aug 2016",
@@ -176,7 +166,7 @@
     },
     {
       "title": "Sofware Developer",
-      "companyName": "Qservices",
+      "companyName": "Qservices Full-time",
       "location": "Greater Buenos Aires, Argentina",
       "description": "ASP .NET C#, Jquery, Bootrstap, SQL",
       "date1": "Aug 2014 – Sep 2015",
@@ -292,8 +282,6 @@
     }
   ],
   "recommendations": {
-    "givenCount": "0",
-    "receivedCount": "0",
     "given": [],
     "received": []
   },
@@ -302,14 +290,6 @@
       "count": "3",
       "title": "Courses",
       "items": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
         "GDG DevFest Arg",
         "NodeConf Arg",
         "React Amsterdam",
@@ -323,20 +303,7 @@
     }
   ],
   "courses": [],
-  "languages": [
-    {
-      "name": "English",
-      "proficiency": "Full professional proficiency"
-    },
-    {
-      "name": "German",
-      "proficiency": "Limited working proficiency"
-    },
-    {
-      "name": "Spanish",
-      "proficiency": "Native or bilingual proficiency"
-    }
-  ],
+  "languages": [],
   "projects": [
     {
       "name": "Gatsby Starter Mate",
@@ -369,7 +336,7 @@
   ],
   "profile": {
     "name": "Emanuel Suriano",
-    "headline": "Senior Software Engineer at Omio",
+    "headline": "Senior Software Engineer",
     "imageurl": "https://media-exp1.licdn.com/dms/image/C4D03AQGwsLuvWm8psQ/profile-displayphoto-shrink_200_200/0?e=1593043200&v=beta&t=BDcQ1FdQSEyi_zEUCdZN_Pgcn12VFlE3ZBEiy87Nw9o",
     "summary": "I am a motivated, enthusiastic person, and passionate about new technologies. Always building side projects which allow me to always be up to date with the current stack in the field.\n\nI firmly believe in the Open Source philosophy, therefore I am a maintainer of some Open Source project, you can find them inside my GitHub profile. Also, I am keen to contribute to Open Source projects whenever I can because I think is the best to grow as a community."
   }

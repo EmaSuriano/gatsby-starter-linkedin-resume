@@ -10,7 +10,7 @@ export type JsonResumeBasics = {
   image?: string;
   email: string;
   phone?: string;
-  url?: string;
+  website?: string;
   summary: string;
   location: {
     address?: string;

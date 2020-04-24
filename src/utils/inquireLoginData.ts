@@ -2,8 +2,8 @@ import inquirer from 'inquirer';
 
 const EMAIL_REGEX = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
-const inquireLoginData = async () => {
-  const { email, password } = await inquirer.prompt([
+const inquireLoginData = () =>
+  inquirer.prompt<LoginCredentials>([
     {
       name: 'email',
       message: 'Your Email',
@@ -15,7 +15,5 @@ const inquireLoginData = async () => {
       type: 'password',
     },
   ]);
-  return { email, password };
-};
 
 export default inquireLoginData;

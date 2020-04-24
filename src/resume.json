@@ -1,18 +1,18 @@
 {
   "basics": {
-    "name": "string;",
-    "label": "string;",
-    "image": "string;",
-    "email": "string;",
-    "phone": "string;",
-    "url": "string;",
-    "summary": "string;",
+    "name": "Emanuel Suriano",
+    "label": "Senior Software Engineer",
+    "image": "https://media-exp1.licdn.com/dms/image/C4D03AQGwsLuvWm8psQ/profile-displayphoto-shrink_200_200/0?e=1593043200&v=beta&t=BDcQ1FdQSEyi_zEUCdZN_Pgcn12VFlE3ZBEiy87Nw9o",
+    "email": "emanuel.suriano@gmail.com",
+    "phone": "+491727689000",
+    "website": "https://emasuriano.com/",
+    "summary": "I am a motivated, enthusiastic person, and passionate about new technologies. Always building side projects which allow me to always be up to date with the current stack in the field.\n\nI firmly believe in the Open Source philosophy, therefore I am a maintainer of some Open Source project, you can find them inside my GitHub profile. Also, I am keen to contribute to Open Source projects whenever I can because I think is the best to grow as a community.",
     "location": {
-      "address": "string;",
-      "postalCode": "string;",
-      "city": "string;",
-      "countryCode": "string;",
-      "region": "string;"
+      "address": "",
+      "postalCode": "",
+      "city": "Berlin",
+      "countryCode": "Germany",
+      "region": "Germany"
     }
   },
   "work": [
@@ -25,7 +25,9 @@
       "startDate": "string;",
       "endDate": "string;",
       "summary": "string;",
-      "highlights": ["string[];"]
+      "highlights": [
+        "string[];"
+      ]
     }
   ],
   "education": [
@@ -36,7 +38,9 @@
       "startDate": "string",
       "endDate": "string",
       "gpa": "string",
-      "courses": ["string"]
+      "courses": [
+        "string"
+      ]
     }
   ]
 }
