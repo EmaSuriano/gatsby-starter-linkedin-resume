@@ -106,5 +106,6 @@ static/
 public/
 
 ./resume.json
+./linked-in.json
 ./linked-in-data.json
 lib/
