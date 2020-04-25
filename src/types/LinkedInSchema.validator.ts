@@ -135,6 +135,9 @@ export const LinkedInSchemaSchema = {
               description: {
                 type: "string",
               },
+              link: {
+                type: "string",
+              },
               location: {
                 type: "string",
               },
@@ -162,6 +165,9 @@ export const LinkedInSchemaSchema = {
                       type: "string",
                     },
                     description: {
+                      type: "string",
+                    },
+                    link: {
                       type: "string",
                     },
                     location: {

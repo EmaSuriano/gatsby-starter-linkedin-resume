@@ -22,17 +22,30 @@ export type JsonResumeBasics = {
   profiles?: JsonResumeProfile[];
 };
 
-export type JsonResumeWork = {
-  name: string;
+type JsonResumeWorkBase = {
   location: string;
-  description: string;
+  company: string;
+  website?: string;
+};
+
+export type JsonResumePosition = {
   position: string;
-  url?: string;
   startDate: string;
   endDate?: string;
   summary: string;
   highlights?: string[];
 };
+
+export type JsonResumeWorkSinglePosition = JsonResumePosition &
+  JsonResumeWorkBase;
+
+export type JsonResumeWorkMultiPosition = {
+  positions: JsonResumePosition[];
+} & JsonResumeWorkBase;
+
+export type JsonResumeWork =
+  | JsonResumeWorkSinglePosition
+  | JsonResumeWorkMultiPosition;
 
 export type JsonResumeVolunteer = {
   organization: string;
@@ -65,7 +78,7 @@ export type JsonResumePublication = {
   name: string;
   publisher?: string;
   releaseDate: string;
-  url: string;
+  website?: string;
   summary: string;
 };
 

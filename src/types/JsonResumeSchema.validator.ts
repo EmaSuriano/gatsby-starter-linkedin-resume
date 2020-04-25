@@ -103,7 +103,7 @@ export const JsonResumeSchemaSchema = {
         summary: {
           type: "string",
         },
-        url: {
+        website: {
           type: "string",
         },
       },
@@ -252,11 +252,11 @@ export const JsonResumeSchemaSchema = {
           summary: {
             type: "string",
           },
-          url: {
+          website: {
             type: "string",
           },
         },
-        required: ["name", "releaseDate", "summary", "url"],
+        required: ["name", "releaseDate", "summary"],
         type: "object",
       },
       type: "array",
@@ -335,48 +335,108 @@ export const JsonResumeSchemaSchema = {
     },
     work: {
       items: {
-        defaultProperties: [],
-        properties: {
-          description: {
-            type: "string",
+        anyOf: [
+          {
+            allOf: [
+              {
+                defaultProperties: [],
+                properties: {
+                  endDate: {
+                    type: "string",
+                  },
+                  highlights: {
+                    items: {
+                      type: "string",
+                    },
+                    type: "array",
+                  },
+                  position: {
+                    type: "string",
+                  },
+                  startDate: {
+                    type: "string",
+                  },
+                  summary: {
+                    type: "string",
+                  },
+                },
+                required: ["position", "startDate", "summary"],
+                type: "object",
+              },
+              {
+                defaultProperties: [],
+                properties: {
+                  company: {
+                    type: "string",
+                  },
+                  location: {
+                    type: "string",
+                  },
+                  website: {
+                    type: "string",
+                  },
+                },
+                required: ["company", "location"],
+                type: "object",
+              },
+            ],
           },
-          endDate: {
-            type: "string",
+          {
+            allOf: [
+              {
+                defaultProperties: [],
+                properties: {
+                  positions: {
+                    items: {
+                      defaultProperties: [],
+                      properties: {
+                        endDate: {
+                          type: "string",
+                        },
+                        highlights: {
+                          items: {
+                            type: "string",
+                          },
+                          type: "array",
+                        },
+                        position: {
+                          type: "string",
+                        },
+                        startDate: {
+                          type: "string",
+                        },
+                        summary: {
+                          type: "string",
+                        },
+                      },
+                      required: ["position", "startDate", "summary"],
+                      type: "object",
+                    },
+                    type: "array",
+                  },
+                },
+                required: ["positions"],
+                type: "object",
+              },
+              {
+                defaultProperties: [],
+                properties: {
+                  company: {
+                    type: "string",
+                  },
+                  location: {
+                    type: "string",
+                  },
+                  website: {
+                    type: "string",
+                  },
+                },
+                required: ["company", "location"],
+                type: "object",
+              },
+            ],
           },
-          highlights: {
-            items: {
-              type: "string",
-            },
-            type: "array",
-          },
-          location: {
-            type: "string",
-          },
-          name: {
-            type: "string",
-          },
-          position: {
-            type: "string",
-          },
-          startDate: {
-            type: "string",
-          },
-          summary: {
-            type: "string",
-          },
-          url: {
-            type: "string",
-          },
-        },
-        required: [
-          "description",
-          "location",
-          "name",
-          "position",
-          "startDate",
-          "summary",
         ],
-        type: "object",
       },
       type: "array",
     },

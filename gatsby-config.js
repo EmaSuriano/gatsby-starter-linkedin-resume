@@ -15,9 +15,9 @@ module.exports = {
       resolve: 'gatsby-theme-jsonresume',
       options: {
         resumeJson,
-        name: 'index',
         theme: 'standard-resume',
       },
     },
+    'gatsby-plugin-meta-redirect', // remove in case you don't want redirect
   ],
 };

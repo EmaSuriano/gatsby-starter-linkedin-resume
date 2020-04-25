@@ -24,11 +24,12 @@ export type PositionInfo = {
   location?: string;
   description: string;
   companyName?: string;
+  link?: string;
   date1: string;
   date2: string;
 };
 
-export type Education = {
+export type LinkedInEducation = {
   title: string;
   degree: string;
   fieldofstudy: string;
@@ -63,13 +64,13 @@ export type LinkedInProject = {
   link: string;
 };
 
-export type ComboPosition = PositionInfo & { roles?: PositionInfo[] };
+export type LinkedInPosition = PositionInfo & { roles?: PositionInfo[] };
 
 export default interface LinkedInSchema {
   contact: ContactItem[];
   profile: ProfileData;
-  positions: ComboPosition[];
-  educations: Education[];
+  positions: LinkedInPosition[];
+  educations: LinkedInEducation[];
   skills: Skill[];
   courses: Course[];
   languages: LinkedInLanguage[];
