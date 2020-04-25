@@ -108,3 +108,5 @@ public/
 resume.json
 linked-in.json
 lib/
+
+*.validator.ts

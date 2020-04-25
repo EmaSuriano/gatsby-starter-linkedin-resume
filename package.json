@@ -14,6 +14,7 @@
     "react-dom": "^16.13.1"
   },
   "scripts": {
+    "postinstall": "yarn generate-validators",
     "start": "yarn build && gatsby serve",
     "build": "tsc -p . && gatsby build",
     "generate-resume": "ts-node --files src",
