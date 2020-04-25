@@ -23,7 +23,7 @@ export type JsonResumeBasics = {
 };
 
 type JsonResumeWorkBase = {
-  location: string;
+  location?: string;
   company: string;
   website?: string;
 };
@@ -50,7 +50,7 @@ export type JsonResumeWork =
 export type JsonResumeVolunteer = {
   organization: string;
   position?: string;
-  url: string;
+  url?: string;
   startDate: string;
   endDate?: string;
   summary: string;
