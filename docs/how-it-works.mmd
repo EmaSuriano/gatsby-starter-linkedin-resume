@@ -1,0 +1,13 @@
+graph TD
+    Start --> A[yarn build]
+    Start --> B[yarn generate-resume]
+    A --> A1{Resume data exists?}
+    A1 --> |false|D[Error: please generate resume first]
+    A1 --> |true|E[Generating HTML and PDF Resume]
+    B --> B1{LinkedIn data exists?}
+    B1 --> |false|B4[Provide LinkedIn Credentials]
+    B4 --> B5[Crawling your LinkedIn Info]
+    B5 --> B2
+    B1 --> |true|B2[Mapping LinkedIn to JSON Resume]
+    B2 --> B3[Resume Data saved!]
+    

@@ -104,3 +104,8 @@ dist
 .tern-port
 static/
 public/
+
+linked-in.json
+lib/
+
+*.validator.ts

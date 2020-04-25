@@ -1,19 +1,39 @@
 {
-  "name": "resume",
+  "name": "gatsby-starter-linkedin-resume",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/EmaSuriano/resume.git",
+  "repository": "https://github.com/EmaSuriano/gatsby-starter-linkedin-resume.git",
   "author": "EmaSuriano <emanuel.suriano@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "gatsby": "^2.20.24",
+    "gatsby-plugin-meta-redirect": "^1.1.1",
     "gatsby-theme-jsonresume": "^1.0.6",
-    "jsonresume-theme-standard-resume": "^1.0.3",
+    "jsonresume-theme-standard-resume": "^1.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "scripts": {
     "start": "yarn build && gatsby serve",
-    "build": "gatsby build"
+    "build": "yarn generate-validators && tsc -p . && gatsby build",
+    "generate-resume": "ts-node --files src",
+    "generate-validators": "typescript-json-validator src/types/LinkedInSchema.ts LinkedInSchema & typescript-json-validator src/types/JsonResumeSchema.ts JsonResumeSchema",
+    "type-check": "tsc -p . --noEmit",
+    "docs": "mmdc -i docs/how-it-works.mmd -o docs/how-it-works.svg"
+  },
+  "devDependencies": {
+    "@mermaid-js/mermaid-cli": "^8.4.8",
+    "@types/inquirer": "^6.5.0",
+    "@types/node": "^13.13.1",
+    "@types/progress": "^2.0.3",
+    "chalk": "^4.0.0",
+    "commander": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "inquirer": "^7.1.0",
+    "progress": "^2.0.3",
+    "scrapedin": "^1.0.14",
+    "ts-node": "^8.9.0",
+    "typescript": "^3.8.3",
+    "typescript-json-validator": "^2.4.2"
   }
 }
