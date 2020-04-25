@@ -7133,10 +7133,10 @@ jsonresume-theme-modern@0.0.18:
     mustache "^0.8.2"
     tarball-extract "0.0.3"
 
-jsonresume-theme-standard-resume@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/jsonresume-theme-standard-resume/-/jsonresume-theme-standard-resume-1.1.0.tgz#8279b78cabd1668153c07c19d7c3d44bffaf2b78"
-  integrity sha512-yhkRQY59TAUIhqgAIQ2vOnTILM5oUJzSyjnk6isY4aIdlDlEEpGaCPq24oQO0vULkOOSZjlVJnnEIqFdp5V8aw==
+jsonresume-theme-standard-resume@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/jsonresume-theme-standard-resume/-/jsonresume-theme-standard-resume-1.2.1.tgz#a5780975a2b052f4d65d09b24cb2cedbb045bc66"
+  integrity sha512-jPLPGHAeAuQoC62jZxCUO5c6jUWAWn39+amiJT9z9lJp0PmA4BOEDSd8ze7ksPoUph6mKbYkerjTmrHIFDa93Q==
   dependencies:
     handlebars "^4.0.12"
     helper-date "^1.0.1"

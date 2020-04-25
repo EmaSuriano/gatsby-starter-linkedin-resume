@@ -9,15 +9,24 @@ if (!existsSync('./src/resume.json')) {
 
 const resumeJson = validate(require('./src/resume.json'));
 
+process.env.RESUME_ROUTE = 'index';
+const { RESUME_ROUTE: name } = process.env;
+
+const addPdfLink = (resume) => ({
+  ...resume,
+  basics: { ...resume.basics, pdfLink: `/${name}.pdf` },
+});
+
 module.exports = {
   plugins: [
     {
       resolve: 'gatsby-theme-jsonresume',
       options: {
-        resumeJson,
+        resumeJson: addPdfLink(resumeJson),
+        name,
         theme: 'standard-resume',
       },
     },
-    'gatsby-plugin-meta-redirect', // remove in case you don't want redirect
+    'gatsby-plugin-meta-redirect',
   ],
 };

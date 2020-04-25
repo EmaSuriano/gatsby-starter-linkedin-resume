@@ -1,14 +1,15 @@
 // Generally you create redirects while creating pages.
-exports.createPages = ({ actions }) => {
+exports.createPages = ({ actions, siteMetadata, ...rest }) => {
+  const { RESUME_ROUTE: route } = process.env;
   actions.createRedirect({
-    fromPath: '/',
-    toPath: '/resume.html',
+    fromPath: '/html',
+    toPath: `/${route}.html`,
     isPermanent: true,
   });
 
   actions.createRedirect({
     fromPath: '/pdf',
-    toPath: '/resume.pdf',
+    toPath: `/${route}.pdf`,
     isPermanent: true,
   });
 };
