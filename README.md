@@ -2,11 +2,13 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3177feae-108a-4542-bbea-664f86862e10/deploy-status)](https://app.netlify.com/sites/gatsby-starter-linkedin-resume/deploys)
 
-> Static, decoupled and easy to maintain!
+> Generate your resume (HTML, PDF) from your Linked information with Gatsby 💪
 
 Target audience is mainly developers who are tired of updating their CV's every now and then.
 
-**Deployed in a [Web version][url] and a [PDF version][url-pdf].**
+**Live Demo ✨**
+- [Web version][url]
+- [PDF version][url-pdf]
 
 ## What does it include? 📦
 
