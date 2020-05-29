@@ -1,0 +1,14 @@
+language: node_js
+
+node_js:
+  - stable
+
+cache:
+  yarn: true
+
+install:
+  - yarn --frozen-lockfile --ignore-engines
+
+script:
+  - yarn generate-resume --renew
+  - yarn build

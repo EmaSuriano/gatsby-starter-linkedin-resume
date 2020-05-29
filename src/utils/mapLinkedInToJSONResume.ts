@@ -84,7 +84,7 @@ const mapToWork = (position: LinkedInPosition): JsonResumeWork => {
 const mapToEducation = (education: LinkedInEducation): JsonResumeEducation => {
   return {
     institution: education.title,
-    area: education.fieldofstudy,
+    area: education.fieldOfStudy,
     studyType: education.degree,
     startDate: formatDate(education.date1),
     endDate: formatDate(education.date2),

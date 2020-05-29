@@ -25,7 +25,6 @@ module.exports = {
       options: {
         resumeJson: addPdfLink(resumeJson),
         name,
-        theme: 'standard-resume',
       },
     },
     'gatsby-plugin-meta-redirect',
