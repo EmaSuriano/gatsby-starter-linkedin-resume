@@ -18,6 +18,7 @@
     "build": "yarn generate-validators && tsc -p . && gatsby build",
     "build:generate": "yarn generate-resume --renew && yarn build",
     "generate-resume": "ts-node --files src",
+    "postinstall": "yarn generate-validators",
     "generate-validators": "typescript-json-validator src/types/LinkedInSchema.ts LinkedInSchema & typescript-json-validator src/types/JsonResumeSchema.ts JsonResumeSchema",
     "type-check": "tsc -p . --noEmit",
     "docs": "mmdc -i docs/how-it-works.mmd -o docs/how-it-works.svg"
