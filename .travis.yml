@@ -10,5 +10,5 @@ install:
   - yarn --frozen-lockfile --ignore-engines
 
 script:
-  - yarn generate-resume --renew
+  - yarn generate-resume
   - yarn build
