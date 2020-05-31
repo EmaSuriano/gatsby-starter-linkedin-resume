@@ -1,18 +1,9 @@
-const { existsSync, writeFileSync } = require('fs');
+const { existsSync } = require('fs');
 const { default: validate } = require('./lib/types/JsonResumeSchema.validator');
 const { RESUME_PATH } = require('./lib/utils/path');
-const fetch = require('node-fetch');
-
 require('dotenv').config();
 
-const { RESUME_JSON } = process.env;
-
-if (RESUME_JSON) {
-  console.log('Downloading the resume from the external resource');
-  fetch(RESUME_JSON)
-    .then((x) => x.json())
-    .then((json) => writeFileSync(RESUME_PATH, JSON.stringify(json, null, 2)));
-}
+const { RESUME_ROUTE = 'index' } = process.env;
 
 if (!existsSync(RESUME_PATH)) {
   throw new Error(
@@ -22,12 +13,9 @@ if (!existsSync(RESUME_PATH)) {
 
 const resumeJson = validate(require(RESUME_PATH));
 
-process.env.RESUME_ROUTE = 'index';
-const { RESUME_ROUTE: name } = process.env;
-
 const addPdfLink = (resume) => ({
   ...resume,
-  basics: { ...resume.basics, pdfLink: `/${name}.pdf` },
+  basics: { ...resume.basics, pdfLink: `/${RESUME_ROUTE}.pdf` },
 });
 
 module.exports = {
@@ -36,7 +24,7 @@ module.exports = {
       resolve: 'gatsby-theme-jsonresume',
       options: {
         resumeJson: addPdfLink(resumeJson),
-        name,
+        name: RESUME_ROUTE,
         theme: 'standard-resume',
       },
     },

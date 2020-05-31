@@ -1,5 +1,5 @@
 import { program } from 'commander';
-import fs, { writeFileSync } from 'fs';
+import fs from 'fs';
 import { log } from './utils/log';
 import { RESUME_PATH, LINKED_IN_PATH } from './utils/path';
 import mapLinkedInToJSONResume from './utils/mapLinkedInToJSONResume';
@@ -19,10 +19,10 @@ type CLIParams = {
 const main = async ({ renew }: CLIParams) => {
   if (LINKED_IN_JSON) {
     log('Downloading the linked in resume from the external resource');
-    fetch(LINKED_IN_JSON)
+    await fetch(LINKED_IN_JSON)
       .then((x) => x.json())
       .then((json: Object) =>
-        writeFileSync(LINKED_IN_PATH, JSON.stringify(json, null, 2)),
+        fs.writeFileSync(LINKED_IN_PATH, JSON.stringify(json, null, 2)),
       );
   }
 

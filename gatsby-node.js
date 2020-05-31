@@ -1,15 +1,17 @@
-// Generally you create redirects while creating pages.
-exports.createPages = ({ actions, siteMetadata, ...rest }) => {
-  const { RESUME_ROUTE: route } = process.env;
+require('dotenv').config();
+
+exports.createPages = async ({ actions, siteMetadata, ...rest }) => {
+  const { RESUME_ROUTE = 'index' } = process.env;
+
   actions.createRedirect({
     fromPath: '/html',
-    toPath: `/${route}.html`,
+    toPath: `/${RESUME_ROUTE}.html`,
     isPermanent: true,
   });
 
   actions.createRedirect({
     fromPath: '/pdf',
-    toPath: `/${route}.pdf`,
+    toPath: `/${RESUME_ROUTE}.pdf`,
     isPermanent: true,
   });
 };
