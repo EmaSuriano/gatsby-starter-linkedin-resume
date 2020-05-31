@@ -1,0 +1,137 @@
+{
+  "basics": {
+    "name": "Emanuel Suriano",
+    "label": "Senior Software Engineer",
+    "image": "https://media-exp1.licdn.com/dms/image/C4D03AQGwsLuvWm8psQ/profile-displayphoto-shrink_200_200/0?e=1596672000&v=beta&t=hkTyVkHmgiaZFwGhgz6UmTRI8IDO6MtLdqWI1L_yew8",
+    "email": "emanuel.suriano@gmail.com",
+    "phone": "",
+    "website": "https://emasuriano.com/",
+    "summary": "A senior engineer with over 5 years of experience in software development. Experienced in Frontend development, mentoring engineers, and software architecture. Open Source enthusiast, speaker, and writer.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Berlin",
+      "countryCode": "Germany",
+      "region": "Germany"
+    }
+  },
+  "work": [
+    {
+      "location": "Berlin Area, Germany",
+      "company": "Omio",
+      "website": "https://www.linkedin.com/company/omio/",
+      "positions": [
+        {
+          "summary": "Member of UI Platform team. The goal of this is team was to empower teams by providing technical solutions to improve their speed and ensure the quality of the projects inside the company. The communication and feedback with the teams played a big role.",
+          "position": "Senior Software Engineer - UI Platform",
+          "startDate": "Jan 2019",
+          "endDate": "",
+          "highlights": [
+            "Decision making on technologies and tools to be used across the organization",
+            "Build a development framework for all teams working in React and React Native projects",
+            "Design and Implementation of Omio's Web and React Native architecture"
+          ]
+        },
+        {
+          "summary": "Developer of the Booking team. Ensuring a reliable and enjoyable experience for users who want to buy travel tickets on our platform.",
+          "position": "Software Engineer - Booking Team",
+          "startDate": "Feb Aug 2018",
+          "endDate": "Jan 2019",
+          "highlights": [
+            "Integration with new payment methods",
+            "Automation testing of the whole workflow",
+            "A/B Testing new features for conversion optimization…"
+          ]
+        }
+      ]
+    },
+    {
+      "location": "",
+      "company": "Open Source",
+      "website": "https://www.linkedin.com/company/open-source-reactvt/",
+      "summary": "Maintainer of several open-source projects and actively contributing to repositories from organizations as well as projects from individual members.",
+      "position": "Open Source Developer",
+      "startDate": "Jan 2018",
+      "endDate": "",
+      "highlights": []
+    },
+    {
+      "location": "Greater Buenos Aires, Argentina",
+      "company": "intive",
+      "website": "https://www.linkedin.com/company/intive/",
+      "positions": [
+        {
+          "summary": "Leading a team of Frontend engineers and working for an important air flight company located in the US.",
+          "position": "Web Development Team Lead",
+          "startDate": "Mar 2018",
+          "endDate": "Feb Aug 2018",
+          "highlights": [
+            "Develop a scalable React architecture",
+            "Collaborative working with teams located in different timezones",
+            "Ensure Accessibility (a11y) development…"
+          ]
+        },
+        {
+          "summary": "Working with a team of more than 20 developers for a big contractor located in the United States. The project was a suite of 12 products built open a single SPA.",
+          "position": "Web Developer",
+          "startDate": "Feb Aug 2016",
+          "endDate": "Feb Feb 2018",
+          "highlights": [
+            "Building the Architecture foundation of the project using React",
+            "Abstraction and reuse of components across the 12 suites…"
+          ]
+        }
+      ]
+    },
+    {
+      "location": "Greater Buenos Aires, Argentina",
+      "company": "Globant",
+      "website": "https://www.linkedin.com/company/globant/",
+      "summary": "Developed enhancements for a legacy audit-related application applying technologies such as .Net C#, Angular JS, Entity Framework, MVC, SQL",
+      "position": "Web Developer",
+      "startDate": "Sep 2015",
+      "endDate": "Feb Aug 2016",
+      "highlights": []
+    },
+    {
+      "location": "Greater Buenos Aires, Argentina",
+      "company": "Qservices",
+      "website": "https://www.linkedin.com/company/qservices/",
+      "summary": "Development of Web visualization tools using Jquery and Bootstrap and building Web Servers using .NET C# and SQL.",
+      "position": "Junior Software Developer",
+      "startDate": "Feb Aug 2014",
+      "endDate": "Sep 2015",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "National University of La Matanza",
+      "area": "Computer Engineering",
+      "studyType": "Master's degree",
+      "startDate": "Feb 2011",
+      "endDate": "Feb 2017"
+    },
+    {
+      "institution": "ITI San Judas Tadeo",
+      "area": "Information Technology",
+      "studyType": "High School Diploma",
+      "startDate": "Feb 2009",
+      "endDate": "Feb 2011"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Gatsby Starter Mate",
+      "summary": "Open Source project to bootstrap an accessible and fast portfolio starter for Gatsby integrated with Contentful CMS. The target audiences are Developers and Tech Writers.",
+      "releaseDate": "Aug 2018 – Present",
+      "website": "https://github.com/EmaSuriano/gatsby-starter-mate"
+    },
+    {
+      "name": "Blindle",
+      "summary": "Open Source and accessible device to learn Braille, driven by the need in the device market for blind people. The project consists of a set of instructions to assemble your own device, from the mechanical parts needed to the code that needs to be executed inside the electronic boards.",
+      "releaseDate": "Mar 2017 – Dec 2017",
+      "website": "http://blindle.github.io/"
+    }
+  ]
+}
