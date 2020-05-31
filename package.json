@@ -28,7 +28,7 @@
     "docs": "mmdc -i docs/how-it-works.mmd -o docs/how-it-works.svg"
   },
   "devDependencies": {
-    "@mermaid-js/mermaid-cli": "^8.4.8",
+    "@mermaid-js/mermaid-cli": "^8.5.1",
     "@types/inquirer": "^6.5.0",
     "@types/jest": "^25.2.3",
     "@types/node": "^13.13.1",
