@@ -2,6 +2,7 @@ import fetch from 'node-fetch';
 import { main } from './external-resume';
 import fs from 'fs';
 import linkedInMock from './mocks/linked-in.json';
+import { RESUME_PATH } from './utils/path';
 
 jest.mock('fs');
 
@@ -10,8 +11,8 @@ jest.mock('node-fetch', () =>
 );
 
 describe('external resume', () => {
-  it('should not fetch ', () => {
-    main({});
+  it('should not fetch ', async () => {
+    await main({});
     expect(fetch).not.toBeCalled();
   });
 
@@ -20,6 +21,9 @@ describe('external resume', () => {
     await main({ RESUME_JSON });
 
     expect(fetch).toBeCalledWith(RESUME_JSON);
-    expect(fs.writeFileSync).toBeCalled();
+    expect(fs.writeFileSync).toBeCalledWith(
+      RESUME_PATH,
+      JSON.stringify(linkedInMock, null, 2),
+    );
   });
 });

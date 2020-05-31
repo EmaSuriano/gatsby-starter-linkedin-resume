@@ -14,13 +14,13 @@ export const main = async ({ renew }: CLIParams) => {
   if (renew || !readJson(LINKED_IN_PATH)) {
     log('Please provide your LinkedIn credentials:');
     const credentials = await inquireLoginData();
-    const profile = await getLinkedInData(credentials);
+    const profileInfo = await getLinkedInData(credentials);
+
     log('LinkedIn Information saved.', LINKED_IN_PATH);
-    saveJson(LINKED_IN_PATH, profile);
+    saveJson(LINKED_IN_PATH, profileInfo);
   }
 
-  const linkedInData = readJson(LINKED_IN_PATH);
-  const linkedInParsed = validateLinkedInSchema(linkedInData);
+  const linkedInParsed = validateLinkedInSchema(readJson(LINKED_IN_PATH));
 
   log('Parsing LinkedIn data into JSON Resume ...');
   const jsonResumeData = mapLinkedInToJSONResume(linkedInParsed);
@@ -29,10 +29,12 @@ export const main = async ({ renew }: CLIParams) => {
   saveJson(RESUME_PATH, jsonResumeData);
 };
 
-program
-  .version('0.0.1')
-  .option('-r, --renew', 'renew LinkedIn data')
-  .parse(process.argv);
+if (!process.env.RUN_IN_JEST) {
+  program
+    .version('0.0.1')
+    .option('-r, --renew', 'renew LinkedIn data')
+    .parse(process.argv);
 
-const params: CLIParams = program.opts();
-main(params);
+  const params: CLIParams = program.opts();
+  main(params).then(() => process.exit(0));
+}

@@ -19,4 +19,4 @@ export const main = async ({ RESUME_JSON }: EnvVariables) => {
   }
 };
 
-main(process.env);
+if (!process.env.RUN_IN_JEST) main(process.env).then(() => process.exit(0));
