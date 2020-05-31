@@ -1,6 +1,9 @@
 const { existsSync } = require('fs');
 const { default: validate } = require('./lib/types/JsonResumeSchema.validator');
 const { RESUME_PATH } = require('./lib/utils/path');
+require('dotenv').config();
+
+const { RESUME_ROUTE = 'index' } = process.env;
 
 if (!existsSync(RESUME_PATH)) {
   throw new Error(
@@ -10,12 +13,9 @@ if (!existsSync(RESUME_PATH)) {
 
 const resumeJson = validate(require(RESUME_PATH));
 
-process.env.RESUME_ROUTE = 'index';
-const { RESUME_ROUTE: name } = process.env;
-
 const addPdfLink = (resume) => ({
   ...resume,
-  basics: { ...resume.basics, pdfLink: `/${name}.pdf` },
+  basics: { ...resume.basics, pdfLink: `/${RESUME_ROUTE}.pdf` },
 });
 
 module.exports = {
@@ -24,7 +24,7 @@ module.exports = {
       resolve: 'gatsby-theme-jsonresume',
       options: {
         resumeJson: addPdfLink(resumeJson),
-        name,
+        name: RESUME_ROUTE,
         theme: 'standard-resume',
       },
     },

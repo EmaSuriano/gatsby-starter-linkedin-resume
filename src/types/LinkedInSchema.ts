@@ -32,7 +32,7 @@ export type PositionInfo = {
 export type LinkedInEducation = {
   title: string;
   degree: string;
-  fieldofstudy: string;
+  fieldOfStudy: string;
   date1: string;
   date2: string;
 };
