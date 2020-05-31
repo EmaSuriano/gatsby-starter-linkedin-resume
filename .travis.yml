@@ -10,5 +10,6 @@ install:
   - yarn --frozen-lockfile --ignore-engines
 
 script:
-  - yarn generate-resume
+  - yarn type-check
+  - yarn test
   - yarn build
