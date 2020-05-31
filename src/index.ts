@@ -14,10 +14,10 @@ export const main = async ({ renew }: CLIParams) => {
   if (renew || !readJson(LINKED_IN_PATH)) {
     log('Please provide your LinkedIn credentials:');
     const credentials = await inquireLoginData();
-    const profileInfo = await getLinkedInData(credentials);
+    const linkedInData = await getLinkedInData(credentials);
 
     log('LinkedIn Information saved.', LINKED_IN_PATH);
-    saveJson(LINKED_IN_PATH, profileInfo);
+    saveJson(LINKED_IN_PATH, linkedInData);
   }
 
   const linkedInParsed = validateLinkedInSchema(readJson(LINKED_IN_PATH));

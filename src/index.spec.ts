@@ -1,5 +1,5 @@
 import { main } from '.';
-import { readFileSync, writeFileSync, existsSync } from 'fs';
+import { readFileSync, writeFileSync, existsSync, writeFile } from 'fs';
 import linkedInMock from './mocks/mock-linked-in.json';
 import invalidLinkedInMock from './mocks/invalid-linked-in.json';
 import resumeMock from './mocks/resume.json';
@@ -10,6 +10,15 @@ jest.mock('./utils/linkedin');
 jest.mock('fs');
 
 describe('CLI', () => {
+  beforeEach(() => {
+    // @ts-ignore-line
+    readFileSync.mockReset();
+    // @ts-ignore-line
+    existsSync.mockReset();
+    // @ts-ignore-line
+    writeFileSync.mockReset();
+  });
+
   it('should validate and map LinkedIn data ', async () => {
     // @ts-ignore-line
     readFileSync.mockReturnValue(JSON.stringify(linkedInMock));
@@ -18,7 +27,8 @@ describe('CLI', () => {
 
     await main({});
 
-    expect(writeFileSync).toBeCalledWith(
+    expect(writeFileSync).toHaveBeenCalledTimes(1);
+    expect(writeFileSync).toHaveBeenCalledWith(
       RESUME_PATH,
       JSON.stringify(resumeMock, null, 2),
     );
@@ -47,11 +57,12 @@ describe('CLI', () => {
     getLinkedInData.mockResolvedValue(linkedInMock);
 
     await main({ renew: true });
-    expect(writeFileSync).toBeCalledWith(
+    expect(writeFileSync).toHaveBeenCalledTimes(2);
+    expect(writeFileSync).toHaveBeenCalledWith(
       LINKED_IN_PATH,
       JSON.stringify(linkedInMock, null, 2),
     );
-    expect(writeFileSync).toBeCalledWith(
+    expect(writeFileSync).toHaveBeenCalledWith(
       RESUME_PATH,
       JSON.stringify(resumeMock, null, 2),
     );
