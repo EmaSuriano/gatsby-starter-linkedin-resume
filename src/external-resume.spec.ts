@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 import { main } from './external-resume';
 import fs from 'fs';
-import linkedInMock from './mocks/linked-in.json';
+import linkedInMock from './mocks/mock-linked-in.json';
 import { RESUME_PATH } from './utils/path';
 
 jest.mock('fs');

@@ -1,288 +1,138 @@
 {
-  "contact": [
-    {
-      "type": "Your Profile",
-      "values": [
-        "linkedin.com/in/emanuel-suriano"
-      ]
+  "basics": {
+    "name": "Richard Hendriks",
+    "label": "Programmer",
+    "picture": "",
+    "email": "richard.hendriks@gmail.com",
+    "phone": "(912) 555-4321",
+    "website": "http://richardhendricks.com",
+    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "location": {
+      "address": "2712 Broadway St",
+      "postalCode": "CA 94115",
+      "city": "San Francisco",
+      "countryCode": "USA",
+      "region": "California"
     },
-    {
-      "type": "Websites",
-      "values": [
-        "emasuriano.com/  (Personal Website)",
-        "github.com/EmaSuriano  (Github)",
-        "emasuriano.com/blog  (Blog)"
-      ]
-    },
-    {
-      "type": "Address",
-      "values": [
-        "Berlin, Germany"
-      ]
-    },
-    {
-      "type": "Email",
-      "values": [
-        "emanuel.suriano@gmail.com"
-      ]
-    },
-    {
-      "type": "Birthday",
-      "values": [
-        "July 27"
-      ]
-    }
-  ],
-  "profileAlternative": {
-    "name": "Emanuel Suriano",
-    "headline": "Senior Software Engineer",
-    "imageurl": "https://media-exp1.licdn.com/dms/image/C4D03AQGwsLuvWm8psQ/profile-displayphoto-shrink_200_200/0?e=1596067200&v=beta&t=JokwPp6EiuherMNVEnPT8kEnQFVi9VJRx4ThOC5U2uA",
-    "summary": "A senior engineer with over 5 years of experience in software development. Experienced in Frontend development, mentoring engineers, and software architecture. Open Source enthusiast, speaker, and writer."
+    "pdfLink": "/resume.pdf",
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "neutralthoughts",
+        "url": ""
+      },
+      {
+        "network": "SoundCloud",
+        "username": "dandymusicnl",
+        "url": "https://soundcloud.com/dandymusicnl"
+      },
+      {
+        "network": "Medium",
+        "username": "neutralthoughts",
+        "url": "https://medium.com/@neutralthoughts"
+      }
+    ]
   },
-  "aboutAlternative": {
-    "text": "A senior engineer with over 5 years of experience in software development. Experienced in Frontend development, mentoring engineers, and software architecture. Open Source enthusiast, speaker, and writer."
-  },
-  "positions": [
+  "work": [
     {
-      "title": "Omio",
-      "link": "https://www.linkedin.com/company/omio/",
-      "url": "https://www.linkedin.com/company/omio/",
-      "location": "Berlin Area, Germany",
-      "description": "Member of UI Platform team. The goal of this is team was to empower teams by providing technical solutions to improve their speed and ensure the quality of the projects inside the company. The communication and feedback with the teams played a big role.\n\n- Decision making on technologies and tools to be used across the organization\n- Build a development framework for all teams working in React and React Native projects\n- Design and Implementation of Omio's Web and React Native architecture",
-      "date1": "Jan 2019 – Present",
-      "date2": "1 yr 5 mos",
-      "roles": [
+      "company": "Google",
+      "website": "http://google.com/",
+      "positions": [
         {
-          "title": "Senior Software Engineer - UI Platform",
-          "description": "Member of UI Platform team. The goal of this is team was to empower teams by providing technical solutions to improve their speed and ensure the quality of the projects inside the company. The communication and feedback with the teams played a big role.\n\n- Decision making on technologies and tools to be used across the organization\n- Build a development framework for all teams working in React and React Native projects\n- Design and Implementation of Omio's Web and React Native architecture",
-          "date1": "Jan 2019 – Present",
-          "date2": "1 yr 5 mos",
-          "location": "Berlin Area, Germany"
+          "position": "Senior Software Engineer",
+          "summary": "Elit mollit ipsum fugiat enim labore et non. Amet nulla cupidatat esse est qui magna culpa velit magna excepteur proident Lorem aliquip ullamco. Anim culpa sit cillum enim consectetur aliqua id Lorem aute id id laborum. Sit nostrud ea anim et deserunt cillum sint culpa laboris. Nisi magna amet minim esse dolore. Do officia ipsum duis exercitation incididunt irure pariatur.",
+          "startDate": "Jan 2019"
         },
         {
-          "title": "Software Engineer - Booking Team",
-          "description": "Developer of the Booking team. Ensuring a reliable and enjoyable experience for users who want to buy travel tickets on our platform.\n\n- Integration with new payment methods\n- Automation testing of the whole workflow\n- A/B Testing new features for conversion optimization\n…\n",
-          "date1": "Aug 2018 – Jan 2019",
-          "date2": "6 mos",
-          "location": "Berlin, Berlin, Germany"
+          "summary": "Elit mollit ipsum fugiat enim labore et non. Amet nulla cupidatat esse est qui magna culpa velit magna excepteur proident Lorem aliquip ullamco. Anim culpa sit cillum enim consectetur aliqua id Lorem aute id id laborum. Sit nostrud ea anim et deserunt cillum sint culpa laboris. Nisi magna amet minim esse dolore. Do officia ipsum duis exercitation incididunt irure pariatur.",
+          "position": "Software Engineer",
+          "startDate": "Aug 2018",
+          "endDate": "Jan 2019"
         }
       ]
     },
     {
-      "title": "Open Source Developer",
-      "link": "https://www.linkedin.com/company/open-source-reactvt/",
-      "url": "https://www.linkedin.com/company/open-source-reactvt/",
-      "companyName": "Open Source",
-      "description": "Maintainer of several open-source projects and actively contributing to repositories from organizations as well as projects from individual members.",
-      "date1": "Jan 2018 – Present",
-      "date2": "2 yrs 5 mos"
-    },
-    {
-      "title": "intive",
-      "link": "https://www.linkedin.com/company/intive/",
-      "url": "https://www.linkedin.com/company/intive/",
-      "location": "Greater Buenos Aires, Argentina",
-      "description": "Leading a team of Frontend engineers and working for an important air flight company located in the US.\n\n- Develop a scalable React architecture\n- Collaborative working with teams located in different timezones\n- Ensure Accessibility (a11y) development\n…\n",
-      "date1": "Mar 2018 – Aug 2018",
-      "date2": "6 mos",
-      "roles": [
-        {
-          "title": "Web Development Team Lead",
-          "description": "Leading a team of Frontend engineers and working for an important air flight company located in the US.\n\n- Develop a scalable React architecture\n- Collaborative working with teams located in different timezones\n- Ensure Accessibility (a11y) development\n…\n",
-          "date1": "Mar 2018 – Aug 2018",
-          "date2": "6 mos",
-          "location": "Greater Buenos Aires, Argentina"
-        },
-        {
-          "title": "Web Developer",
-          "description": "Working with a team of more than 20 developers for a big contractor located in the United States. The project was a suite of 12 products built open a single SPA.\n\n- Building the Architecture foundation of the project using React\n- Abstraction and reuse of components across the 12 suites\n…\n",
-          "date1": "Aug 2016 – Feb 2018",
-          "date2": "1 yr 7 mos",
-          "location": "Greater Buenos Aires, Argentina"
-        }
+      "company": "Pied Piper",
+      "position": "CEO/President",
+      "website": "http://piedpiper.com",
+      "startDate": "2013-12-01",
+      "endDate": "2014-12-01",
+      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "highlights": [
+        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+        "Successfully won Techcrunch Disrupt",
+        "Optimized an algorithm that holds the current world record for Weisman Scores"
       ]
-    },
-    {
-      "title": "Web Developer",
-      "link": "https://www.linkedin.com/company/globant/",
-      "url": "https://www.linkedin.com/company/globant/",
-      "companyName": "Globant",
-      "location": "Greater Buenos Aires, Argentina",
-      "description": "Developed enhancements for a legacy audit-related application applying technologies such as .Net C#, Angular JS, Entity Framework, MVC, SQL",
-      "date1": "Sep 2015 – Aug 2016",
-      "date2": "1 yr"
-    },
-    {
-      "title": "Junior Software Developer",
-      "link": "https://www.linkedin.com/company/qservices/",
-      "url": "https://www.linkedin.com/company/qservices/",
-      "companyName": "Qservices",
-      "location": "Greater Buenos Aires, Argentina",
-      "description": "Development of Web visualization tools using Jquery and Bootstrap and building Web Servers using .NET C# and SQL.",
-      "date1": "Aug 2014 – Sep 2015",
-      "date2": "1 yr 2 mos"
     }
   ],
-  "educations": [
+  "volunteer": [
     {
-      "title": "National University of La Matanza",
-      "degree": "Master's degree",
-      "url": "https://www.linkedin.com/search/results/all/?keywords=National%20University%20of%20La%20Matanza",
-      "fieldOfStudy": "Computer Engineering",
-      "date1": "2011",
-      "date2": "2017"
-    },
+      "organization": "CoderDojo",
+      "position": "Teacher",
+      "website": "http://coderdojo.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Global movement of free coding clubs for young people.",
+      "highlights": ["Awarded 'Teacher of the Month'"]
+    }
+  ],
+  "education": [
     {
-      "title": "ITI San Judas Tadeo",
-      "degree": "High School Diploma",
-      "url": "https://www.linkedin.com/search/results/all/?keywords=ITI%20San%20Judas%20Tadeo",
-      "fieldOfStudy": "Information Technology",
-      "date1": "2009",
-      "date2": "2011"
+      "institution": "University of Oklahoma",
+      "area": "Information Technology",
+      "studyType": "Bachelor",
+      "startDate": "2011-06-01",
+      "endDate": "2014-01-01",
+      "gpa": "4.0",
+      "courses": ["DB1101 - Basic SQL", "CS2011 - Java Introduction"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Digital Compression Pioneer Award",
+      "date": "2014-11-01",
+      "awarder": "Techcrunch",
+      "summary": "There is no spoon."
+    }
+  ],
+  "publications": [
+    {
+      "name": "Video compression for 3d media",
+      "publisher": "Hooli",
+      "releaseDate": "2014-10-01",
+      "website": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
+      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
     }
   ],
   "skills": [
     {
-      "title": "React.js",
-      "count": "9"
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": ["HTML", "CSS", "Javascript"]
     },
     {
-      "title": "JavaScript",
-      "count": "13"
-    },
-    {
-      "title": "React Native",
-      "count": "1"
-    },
-    {
-      "title": "Web Development",
-      "count": "2"
-    },
-    {
-      "title": "Unit Testing",
-      "count": "1"
-    },
-    {
-      "title": "Integration Testing",
-      "count": "1"
-    },
-    {
-      "title": "SQL",
-      "count": "13"
-    },
-    {
-      "title": "HTML",
-      "count": "7"
-    },
-    {
-      "title": "MySQL",
-      "count": "5"
-    },
-    {
-      "title": "CSS",
-      "count": "4"
-    },
-    {
-      "title": "Git",
-      "count": "3"
-    },
-    {
-      "title": "SASS",
-      "count": "1"
-    },
-    {
-      "title": "Redux",
-      "count": "6"
-    },
-    {
-      "title": "Webpack",
-      "count": "2"
-    },
-    {
-      "title": "End-to-end Testing",
-      "count": "2"
-    },
-    {
-      "title": "Gatsby",
-      "count": "1"
-    },
-    {
-      "title": "GraphQL"
-    },
-    {
-      "title": "TypeScript",
-      "count": "1"
-    },
-    {
-      "title": "Jest"
-    },
-    {
-      "title": "CSS in JS"
+      "name": "Compression",
+      "level": "Master",
+      "keywords": ["Mpeg", "MP4", "GIF"]
     }
   ],
-  "recommendations": {
-    "given": [],
-    "received": []
-  },
-  "accomplishments": [
-    {
-      "count": "3",
-      "title": "Courses",
-      "items": [
-        "GDG DevFest Arg",
-        "NodeConf Arg",
-        "React Amsterdam",
-        "English",
-        "German",
-        "Spanish",
-        "Gatsby Starter Mate",
-        "Blindle"
-      ]
-    }
-  ],
-  "courses": [],
   "languages": [
     {
-      "name": "English",
-      "proficiency": "Full professional proficiency"
-    },
-    {
-      "name": "German",
-      "proficiency": "Limited working proficiency"
-    },
-    {
-      "name": "Spanish",
-      "proficiency": "Native or bilingual proficiency"
+      "language": "English",
+      "fluency": "Native speaker"
     }
   ],
-  "projects": [
+  "interests": [
     {
-      "name": "Gatsby Starter Mate",
-      "date": "Aug 2018 – Present",
-      "description": "Open Source project to bootstrap an accessible and fast portfolio starter for Gatsby integrated with Contentful CMS. The target audiences are Developers and Tech Writers.",
-      "link": "https://github.com/EmaSuriano/gatsby-starter-mate"
-    },
-    {
-      "name": "Blindle",
-      "date": "Mar 2017 – Dec 2017",
-      "description": "Open Source and accessible device to learn Braille, driven by the need in the device market for blind people. The project consists of a set of instructions to assemble your own device, from the mechanical parts needed to the code that needs to be executed inside the electronic boards.",
-      "link": "http://blindle.github.io/"
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
     }
   ],
-  "peopleAlsoViewed": [],
-  "volunteerExperience": [
+  "references": [
     {
-      "title": "Developer FrontEnd/Backend(PHP)",
-      "experience": "Gobierno de la Ciudad de Buenos Aires",
-      "description": "Arts and Culture",
-      "date1": "Jun 2015",
-      "date2": "1 mo"
+      "name": "Erlich Bachman",
+      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
     }
   ],
-  "profile": {
-    "name": "Emanuel Suriano",
-    "headline": "Senior Software Engineer",
-    "imageurl": "https://media-exp1.licdn.com/dms/image/C4D03AQGwsLuvWm8psQ/profile-displayphoto-shrink_200_200/0?e=1596067200&v=beta&t=JokwPp6EiuherMNVEnPT8kEnQFVi9VJRx4ThOC5U2uA",
-    "summary": "A senior engineer with over 5 years of experience in software development. Experienced in Frontend development, mentoring engineers, and software architecture. Open Source enthusiast, speaker, and writer."
-  }
+  "google_analytics_id": "UA-XXXXXXXXX-Y"
 }

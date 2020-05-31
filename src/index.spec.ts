@@ -1,6 +1,6 @@
 import { main } from '.';
 import { readFileSync, writeFileSync, existsSync } from 'fs';
-import linkedInMock from './mocks/linked-in.json';
+import linkedInMock from './mocks/mock-linked-in.json';
 import invalidLinkedInMock from './mocks/invalid-linked-in.json';
 import resumeMock from './mocks/resume.json';
 import { getLinkedInData } from './utils/linkedin';
