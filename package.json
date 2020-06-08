@@ -44,7 +44,7 @@
     "scrapedin": "^1.0.18",
     "ts-jest": "^26.1.0",
     "ts-node": "^8.10.2",
-    "typescript": "^3.9.3",
+    "typescript": "^3.9.5",
     "typescript-json-validator": "^2.4.2"
   }
 }
