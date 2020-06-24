@@ -12361,10 +12361,10 @@ schema-utils@^2.6.5:
     ajv "^6.12.0"
     ajv-keywords "^3.4.1"
 
-scrapedin@^1.0.18:
-  version "1.0.18"
-  resolved "https://registry.yarnpkg.com/scrapedin/-/scrapedin-1.0.18.tgz#a7a77448ee0875b6e78858023e9bd44b51629405"
-  integrity sha512-DmbFB/uzqygrycehyLG2QZzYJm/HiDHOgf2ZImGV3p4Ww5y517KDFTq2O6+ZVeV+oPUY1ye9W1cn4eYRpnAt2g==
+scrapedin@^1.0.20:
+  version "1.0.20"
+  resolved "https://registry.yarnpkg.com/scrapedin/-/scrapedin-1.0.20.tgz#45a0eb7af0094fc6a971c292abe2a1b599ff287d"
+  integrity sha512-hqSA+U9mfLyV9+oHTTMqZSOY56R2ihT2Nbg6TQN9EnKoemVKaWqpW+VKlvvz84N69ffAm2aRKvgXPud+2XAIkw==
   dependencies:
     puppeteer "1.13.0"
     winston "3.1.0"
