@@ -10,6 +10,12 @@ Target audience is mainly developers who are tired of updating their CV's every 
 - [Web version][url]
 - [PDF version][url-pdf]
 
+## Why is this project archived?
+
+I started this project to fix the problem to always keep aligned your LinkedIn and CV in one place, and I was quite happy with the result. But in the last release of [Standard Resume](https://standardresume.co/), they made quite a lot of features that it will take me more time to mantain and keep up with this.
+
+With that being said, I decided to not maintain this project anymore by archiving it. You can still use the `theme` and take care of all the dependencies bump conflicts. Thanks for understanding!
+
 ## What does it include? 📦
 
 - Static hosting of your resume in `html` and `pdf` version powered with [Gatsby][gatbsy].
